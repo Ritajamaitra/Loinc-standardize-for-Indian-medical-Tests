@@ -175,3 +175,215 @@ reagent'),
 'Mobile X-Ray','-','-'),('65',NULL,
 'X-Ray for Tb detection',' chest',' Referral to nearest hub lab
 (CHC)');
+
+
+INSERT INTO `ind`(`test_id`, `Test_category`, `Diagnostic_Test`, `Specimen_Type`, `Equipments_used`) VALUES ('2',' Haematology ','Haemoglobin ','Capillary blood /
+EDTA Whole
+blood','
+Digital haemoglobinometer/
+Automated haematology analyser'),('3',NULL,
+'Total RBC count',' EDTA whole
+blood','
+Microscopy/Fully automated
+haematology analyser'),
+('4',NULL,'Reticulocyte count',' EDTA whole
+blood','
+Microscopy/ Fully automated
+haematology analyser'),('5',NULL,
+'Absolute eosinophil count',' EDTA whole
+blood','
+Microscopy/ Fully automated
+haematology analyser'),('6',NULL,
+'Total leucocyte count',' EDTA whole
+blood','
+Microscopy / Fully automated
+haematology analyser'),('7',NULL,
+'Differential leucocyte count',' EDTA whole
+blood','
+Microscopy/ Fully automated
+haematology analyser'),('8',NULL,
+'Platelet count ','EDTA whole
+blood','
+Microscopy / Fully automated
+haematology analyser'),('9',NULL,
+'CBC',' EDTA whole
+blood','
+Fully automated haematology
+analyser'),('10',NULL,
+'E.S.R ','E DTA whole
+blood','
+Manual / ESR analyser'),('11',NULL,
+'Peripheral Blood Smear',' Capillary blood ','Microscopy'),('12',NULL,
+'Prothrombin time and INR',' Plasma (citrate)',' Automated coagulation analyser'),('13',NULL,
+'Bleeding time',' Whole blood ','Manual'),('14',NULL,
+'Clotting time ','Whole blood',' Manual'),('15',NULL,
+'Blood grouping and Rh
+typing','
+EDTA whole
+blood','
+Manual'),('16',NULL,
+'Blood cross matching',' EDTA whole
+blood','
+Manual'),('17',NULL,
+'Packed Cell volume',' EDTA whole
+blood','
+Automated haematology analyser'),('18',NULL,
+'Sickle cell disease test',' EDTA whole
+blood','
+Screening: Sickling/solubility test;
+Confirmation: Sample to be
+collected & sent to DH for
+electrophoresis'),('19',NULL,
+'Reduction test for screening
+G6PD deficiency','
+EDTA whole
+blood','
+Sample to be collected and sent to
+DH for qualitative visual method'),('20',NULL,
+'Haemoglobinopathies
+screening/testing (in high
+prevalence areas)','
+EDTA whole
+blood and serum','
+Sample to be collected and sent to DH
+for HPLC and analyzer'),
+('21',' Clinical
+Pathology','
+Urine albumin and sugar',' Urine',' Strip method (Reading Manual or
+with a urine analyser)'),('22',NULL,
+'Haemoglobin, bile salts, bile
+pigments, ketone bodies,
+specific gravity, Reaction
+(pH) and leucocyte esterase','
+Urine',' Strip method (Reading Manual or
+with an analyser)'),('23',NULL,
+'Urine microscopy',' Urine ','Microscopy'),('24',NULL, 'Vaginal smear for sperms
+presence (Medico Legal Case)','
+Vaginal smear ','Microscopy'),('25',NULL,
+'Pap smear',' Cervical smear',' Sample to be collected and sent to DH
+and above for microscopy'),
+('26',' Biochemistry ','Pregnancy test',' Urine',' RDT'),
+('27',NULL,'Blood Sugar',' Capillary blood',' Glucometer/ Fully automated
+biochemistry analyser'),('28',NULL,
+'Glucose tolerance test (GTT)',' Plasma',' Fully automated biochemistry
+analyser'),('29',NULL,
+'Bilirubin (Total, Direct &
+Indirect)','
+Serum',' Fully automated biochemistry
+analyser'),('30',NULL,
+'SGOT','
+
+Serum',' Fully automated biochemistry
+analyser'),('31',NULL,
+'SGPT',' Serum',' Fully automated biochemistry
+analyser'),('32',NULL,
+'Alkaline phosphatase',' Serum ','Fully automated biochemistry
+analyser'),('33',NULL,
+'Serum creatinine',' Serum',' Fully automated biochemistry
+analyser'),('34',NULL,
+'Blood Urea',' Serum',' Fully automated biochemistry
+analyser'),('35',NULL,
+'Serum Total Cholesterol',' Serum ','Fully automated biochemistry
+analyser'),('36',NULL,
+'Serum Triglyceride',' Serum',' Fully automated biochemistry
+analyser'),('37',NULL,
+'Serum Sodium',' Serum',' Electrolyte analyser (Indirect ion
+selective electrode)'),('38',NULL,
+'Serum Potassium',' Serum',' Electrolyte analyser (Indirect ion
+selective electrode)'),('39',NULL,
+'Serum Calcium',' Serum',' Fully automated biochemistry
+analyser'),('40',NULL,
+'Free T3 ','Serum ','Sample to be collected and sent to DH
+for Chemiluminescence analyzer'),('41',NULL,
+'Free T4 ','Serum',' Sample to be collected and sent to DH
+for Chemiluminescence analyzer'),('42',NULL,
+'TSH',' Serum',' Sample to be collected and sent to DH
+for Chemiluminescence analyzer'),('43',NULL,
+'Serum Ferritin',' Serum',' Sample to be collected and sent to
+DH and above for ELISA'),('44',NULL,
+'Glycosylated haemoglobin
+(HbA1c)','
+EDTA Whole
+blood','
+Sample to be collected and sent to DH
+for Turbidimetric based/ Fully
+automated biochemistry analyser'),
+('45',' Microbiology ','Smear for RTI/STDs ','Representative
+sample','
+Wet mounting, gram staining'),('46',NULL,
+'Urine M/E for pus cells',' Urine',' Microscopy'),('47',NULL,
+'Smear examination for
+Leprosy','
+Slit skin smear',' Microscopy'),('48',NULL,
+'Throat swab for Diphtheria',' Throat swab ','Microscopy'),('49',NULL, 'Hanging drop test for V.
+cholera','
+Stool ','Microscopy'),('50',NULL,
+'Stool routine examination
+including ova and parasite','
+Stool ','Microscopy'),('51',NULL,
+'Stool for occult blood ','Stool',' Manual'),('52',NULL,
+'Stool, pus, blood and body
+fluids culture, throat and
+antimicrobial sensitivity','
+Stool, pus, blood,
+throat swab, and
+body fluids','
+Samples to be collected and sent to
+DH for manual/ automated analyzer'),('53',NULL,
+'RPR card test for syphilis',' Serum',' RDT'),('54',NULL,
+'rK39 test for Kala-Azar',' Serum',' RDT'),('55',
+'Specific diseases',NULL,NULL,NULL),('56','Malaria',' Peripheral smear for malaria
+parasite detection','
+Capillary blood',' Microscopy'),('57',NULL,
+'Antigen based bivalent RDT
+for detection of Malaria','
+Whole blood',' RDT'),
+('58',' Filariasis',' Peripheral smear for parasite
+detection (Thick smear)','
+Whole blood',' Microscopy'),
+('59',' Dengue',' NS1 antigen and IgM
+antibody based test','
+Serum',' Sample to be collected and sent to
+DH for ELISA'),
+('60',' Japanese
+encephalitis','
+Sample collection',' Serum',' Sample to be collected and sent to
+DH for ELISA'),
+('61',' Scrub
+typhus','
+IgM detection test',' Serum ','Sample to be collected and sent to DH
+for ELISA'),
+('62',' Tuberculosis',' AFB test Sputum, body
+fluids','
+Microscopy (ZN stain)','
+Chip based Real time micro'),('63',NULL,
+'PCR test','
+Sputum Micro PCR','
+Sample collection Sputum Sample to be collected and sent to DH
+for NAAT'),
+('64',' HIV',' Pre- test counselling for HIV
+screening','
+-',' -'),('65',NULL,
+'HIV test (Antibodies 1/2)',' Serum/Plasma/
+Whole blood','
+RDT
+ELISA (sample to be sent to DH )
+'),
+('66',' Hepatitis B',' HBs Ag',' Serum',' RDT'),
+('67',' Hepatitis C ','Anti-HCV',' Serum ','RDT'),
+('68',' Other
+diagnostic
+tests','
+Visual Inspection acetic acid',' Visual examination
+using vaginal
+speculum','
+Vaginal speculum'),('69',NULL,
+'Water quality testing ','Water ','H2S strip test kit'),('70',NULL,
+'Estimation of residual
+chlorine in drinking water','
+Water',' Kit based on ortho toluidine reagent'),('71','Radiology
+and other
+tests','
+ECG','-','-'),
+('72',NULL,'X-Ray','-','-'),
+('73',NULL,'USG with colour doppler','-','-');
