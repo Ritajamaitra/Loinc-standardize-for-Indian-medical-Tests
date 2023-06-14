@@ -4,7 +4,7 @@ use loinc;
 create table indiantest( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
 create table indian( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
 create table ind( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
-create table indt( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
+create table indtests( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
 create table in1( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
 create table in2( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
 
