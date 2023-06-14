@@ -64,4 +64,114 @@ sperms (Medico Legal Case)','
 Vaginal smear ','Microscopy'),('21',NULL,
 'Pap smear',' Cervical smear ','Sample to be sent to DH and
 above for microscopy');
-
+INSERT INTO `indiantests`(`test_id`, `Test_category`, `Diagnostic_Test`, `Specimen_Type`, `Equipments_used`) VALUES ('22',' Biochemistry',' Pregnancy test',' Urine ','RDT'),('23',NULL,
+'Blood Sugar',' Capillary blood ','Glucometer and for fully
+automated analyser (Hub and
+spoke)'),('24',NULL,
+'Glucose tolerance test (GTT)',' Plasma ','Sample to be collected and
+sent for fully autoanalyzer'),('25',NULL,
+'Bilirubin (Total, direct,
+indirect)','
+Serum',' Sample to be collected and
+sent for fully autoanalyzer'),('26',NULL,
+'SGPT',' Serum ','Sample to be collected and
+sent for fully autoanalyzer'),('27',NULL,
+'SGOT',' Serum ','Sample to be collected and
+sent for fully autoanalyzer'),('28',NULL,
+'Alkaline phosphatase',' Serum',' Sample to be collected and
+sent for fully autoanalyzer'),('29',NULL,
+'Serum creatinine',' Serum',' Sample to be collected and
+sent for fully autoanalyzer'),('30',NULL,
+'Blood Urea',' Serum',' Sample to be collected and
+sent for fully autoanalyzer'),('31',NULL,
+'S. Total Cholesterol',' Serum ','Sample to be collected and
+sent for fully autoanalyzer'),('32',NULL,
+'S. Triglycerides',' Serum',' Sample to be collected and
+sent for fully autoanalyzer'),('33',NULL,
+'Serum Sodium',' Serum ','Sample to be collected and
+sent indirect ion selective
+electrode analyser'),('34',NULL,
+'Serum Potassium',' Serum',' Sample to be collected and
+sent to CHC for indirect ion
+selective electrode analyser'),('35',NULL,
+'Serum Calcium',' Serum',' Sample to be collected and
+sent for automated analyser'),('36',NULL,
+'Free T3',' Serum',' Sample to be collected and
+sent to DH for
+Chemiluminescence analyzer'),('37',NULL,
+'Free T4 ','Serum',' Sample to be collected and
+sent to DH for
+Chemiluminescence analyzer'),('38',NULL,
+'TSH (including for newborn
+screening)','
+Serum',' Sample to be collected and
+sent to DH for
+Chemiluminescence analyzer'),
+('39',' Microbiology ','Smear for RTI/STDs',' Representative
+sample','
+Wet mounting, gram stainingmicroscope'),('40',NULL,
+'Urine M/E for pus cells ','Urine',' Microscopy'),('41',NULL,
+'Smear examination for
+Leprosy','
+Slit skin smear',' Microscopy'),('42',NULL,
+'Gram staining for clinical
+specimen','
+Pus',' Microscopy'),('43',NULL,
+'Throat swab for Diphtheria ','Throat swab ','Microscopy'
+),('44',NULL,
+'Hanging drop test for V.
+cholera','
+Stool',' Microscopy'),('45',NULL, 'Stool routine examination
+including ova and parasite','
+Stool',' Microscopy'),('46',NULL,
+'Stool for occult blood',' Stool ','Manual
+RPR Card test for syphilis'),('47',NULL, 'Serum RDT
+rK39 test for Kala-Azar',' Serum',' RDT'),
+('48',' Specific diseases',NULL,NULL,NULL),
+('49', 'Malaria ','Peripheral smear for malaria
+parasite detection','
+Capillary blood',' Microscopy'),('50',NULL,
+'Antigen based bivalent RDT
+for malaria','
+Whole blood ','RDT'),
+('51',' Filariasis',' Peripheral blood smear for
+filarial parasite detection
+(Thick smear)','
+Capillary blood',' Microscopy'),
+('52',' Dengue ','NS1 antigen and IgM
+antibody based test','
+Serum',' Sample to be collected and
+sent to DH for ELISA'),('53',' Japanese
+encephalitis','
+Sample collection',' Serum ','Sample to be collected and
+sent to DH for ELISA'),
+('54',' Scrub typhus',' IgM detection test ','Serum',' Sample to be collected and
+sent to DH for ELISA'),
+('55',' Tuberculosis ','Sputum for AFB',' Sputum ','Microscopy (ZN stain)'),
+('56',' HIV ','Pre- test counselling for HIV
+screening','
+- ','-'),('57',NULL,
+'HIV test (Antibodies 1/2)',' Serum/Plasma/
+Whole blood','
+RDT
+ELISA (sample to be sent to
+DH and above&
+)'),
+('58',' Hepatitis B',' HBs Ag',' Serum',' RDT'),
+('59',' Hepatitis C',' Anti-HCV',' Serum',' RDT'),
+('60',' Other
+diagnostic
+tests','
+Visual Inspection acetic acid',' Visual examination
+using vaginal
+speculum','
+Vaginal speculum'),('61',NULL,
+'Water quality testing',' Water',' H2S strip test kit'),('62',NULL,
+'Estimation of residual
+chlorine in drinking water','
+Water',' Kit based on ortho-toluidine
+reagent'),
+('63',' Radiology',' ECG','-','-'),('64',NULL,
+'Mobile X-Ray','-','-'),('65',NULL,
+'X-Ray for Tb detection',' chest',' Referral to nearest hub lab
+(CHC)');
