@@ -9,3 +9,59 @@ create table in1( test_id int auto_increment NOT NULL, Test_category varchar(255
 create table in2( test_id int auto_increment NOT NULL, Test_category varchar(255) NOT NULL, Diagnostic_Test varchar(255) NOT NULL, Specimen_Type varchar(255) NOT NULL, Equipments_used varchar(255) NOT NULL, Primary key(test_id) );
 
 INSERT INTO `indiantest`(`test_id`, `Test_category`, `Diagnostic_Test`, `Specimen_Type`, `Equipments_used`) VALUES ('2',' Haematology ','Slide preparation for peripheral blood smear',' Capillary blood ','Sample (prepared slide) to be collected and sent to PHC for microscopy'),( '3',' Clinical pathology',' Urine albumin and sugar',' Urine ','Dipstick'),( '4',' Biochemistry',' Pregnancy test ','Urine',' RDT'), ('5',NULL,'Blood sugar ','Capillary blood',' Glucometer'), ('6',' Specific diseases',NULL,NULL,NULL), ('7','Malaria',' Antigen based bivalent RDT for malaria' ,'Capillary/whole blood',' RDT'), ('8','Filariasis','Peripheral blood smear (thick smear)',' Capillary blood',' Sample (prepared slide) to be collected and sent to PHC for microscopy'),('9',' Tuberculosis ','Sample collection for TB',' Sputum collection in disposable sterile containers',' Sample to be collected and sent to PHC for microscopy');
+
+INSERT INTO `indiantests`(`test_id`, `Test_category`, `Diagnostic_Test`, `Specimen_Type`, `Equipments_used`) VALUES ('2',' Haematology',' Haemoglobin',' Capillary blood/
+EDTA ','Whole blood
+Digital haemoglobinometer'),('3',NULL,
+'RBC count','
+EDTA whole blood',' Microscopy'),('4',NULL,
+'Reticulocyte count','
+EDTA whole blood',' Microscopy'),('5',NULL,
+'Absolute eosinophil count','
+EDTA whole blood',' Microscopy'),('6',NULL,
+'Total leucocyte count','
+EDTA whole blood',' Microscopy'),('7',NULL,
+'Differential leucocyte count','
+EDTA whole blood',' Microscopy'),('8',NULL,
+'Platelet count','
+EDTA whole blood',' Microscopy'),('9',NULL,
+'CBC ','EDTA whole blood ','Sample to be collected & sent
+to nearest hub lab for analyser'),('10',NULL,
+'ESR','
+EDTA whole blood ','Manual/ ESR analyser
+(sample to be sent to nearest
+hub lab )'),('11',NULL,
+'Peripheral blood smear',' Capillary blood',' Microscopy'),('12',NULL,
+'Bleeding time ','Whole blood',' Manual'),('13',NULL,
+'Clotting time',' Whole blood',' Manual'),('14',NULL,
+'Blood grouping and Rh
+typing','
+EDTA whole blood ','Manual'),('15',NULL,
+'Sickle cell disease test',' EDTA whole blood',' Screening: Sickling/solubility
+test;
+Confirmation: Sample to be
+collected & sent to DH for
+electrophoresis'),('16',NULL,
+'Reduction test for screening
+G6PD deficiency','
+EDTA whole blood ','Sample to be collected and
+sent to DH for qualitative
+visual method'),
+('17',' Clinical
+Pathology','
+Urine albumin and sugar',' Urine',' Strip method (Reading
+Manual or with a urine
+analyzer)'),('18',NULL,
+'Haemoglobin, bile salts, bile
+pigments, ketone bodies,
+specific gravity, Reaction
+(pH) and leucocyte esterase','
+Urine',' Strip method (Reading
+Manual or with an analyser)'),('19',NULL,'
+Urine microscopy',' Urine',' Microscopy'),('20',NULL,
+'Vaginal smear for presence of
+sperms (Medico Legal Case)','
+Vaginal smear ','Microscopy'),('21',NULL,
+'Pap smear',' Cervical smear ','Sample to be sent to DH and
+above for microscopy');
+
