@@ -953,3 +953,85 @@ nucleic acid test','
 Whole blood ','Sample to be collected and
 sent to tertiary care for
 PCR');
+INSERT INTO `in2`(`test_id`, `Test_category`, `Diagnostic_Test`, `Specimen_Type`, `Equipments_used`) VALUES ('122',' Hepatitis A',' IgM detection test',' Serum ','ELISA'),('123',
+' Hepatitis B',' HBs Ag',' Serum ','RDT and ELISA'),('124',NULL,
+'HBV screening in blood
+bank samples','
+Serum ','RDT , ELISA'),('125',NULL,
+'Quantitative test for viral
+load detection','
+Whole blood ','Sample to be collected and
+sent to tertiary care for
+PCR'),
+('126',' Hepatitis C',' Anti HCV (Total)',' Serum',' ELISA'),('127',NULL,
+'Anti HCV screening in
+blood bank samples','
+Serum',' RDT , ELISA'),('128',NULL,
+'Quantitative test for viral
+load detection','
+Whole blood ','Sample to be sent to
+tertiary care for PCR'),
+('129','Hepatitis E',' IgM detection test ','Serum ','ELISA'),
+('130',' HBC (Core
+antibodies)','
+IgM detection test to
+hepatitis B core antigen','
+Serum',' ELISA'),
+('131',' Other diagnostic
+tests','
+Visual Inspection acetic
+acid','
+Visual examination
+using vaginal
+speculum','
+Vaginal speculum'),('132',NULL,
+'Water quality testing',' Water',' H2S strip test kit'),('133',NULL,
+'Estimation of residual
+chlorine in drinking
+water','
+Water',' Kit based on orthotoluidine reagent'),('134',NULL,
+'Urine for Iodine',' Urine',NULL),('135',NULL,
+'Iodometry Titration',' Salt',NULL),('136',NULL,
+'Blood bank ','Services as per norms
+for the blood bank
+including services for
+self component
+separation',NULL),
+('137',' Radiology and
+other diagnostic
+tests','
+X-ray ','Chest, Skull, Spine,
+Abdomen, bones',NULL),('138',NULL,
+'C –Arm',NULL,NULL),('139',NULL,'
+Intra Oral periapical',NULL,NULL),('140',NULL,
+'IOPA X-ray',NULL,NULL),('141',NULL,
+'Orthopantomogram
+(OPG)',NULL,NULL),('142',NULL,
+'Occlusal radiography and
+Bite wing radiography',NULL,NULL),('143',NULL,
+'TML Tomograms digital',NULL,NULL),('144',NULL,
+'OPG',NULL,NULL),('145',NULL,
+'USG (with colour
+doppler)',NULL,NULL),('146',NULL,
+'Echocardiography',NULL,NULL),('147',NULL,
+'CT scan',NULL,NULL),('148',NULL,
+'ECG',NULL,NULL),('149',NULL,
+'Mammography',NULL,NULL),('150',NULL,
+'MRI (with service
+linkages)',NULL,NULL),('151',NULL,
+'EEG',NULL,NULL),('152',NULL,
+'NCV(Nerve Conduction
+Velocity )',NULL,NULL),('153',NULL,
+'EMG',NULL,NULL),('154',NULL,
+'TMT',NULL,NULL),('155',NULL,
+'PFT',NULL,NULL),('156',NULL,
+'Comprehensive
+Ophthalmic Diagnostic
+services','
+Ocular Coherence
+Tomography',NULL),('157',NULL,NULL,
+'Perimetry',NULL),('158',NULL,NULL,
+'Pachymetry',NULL),('159',NULL,NULL,
+'Eye Angiography',NULL),('160',NULL,NULL,
+'Refraction',NULL),('161',NULL,
+'Angiography',NULL,NULL),('162',NULL, 'Endoscopy',NULL,NULL);
