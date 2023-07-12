@@ -1035,3 +1035,44 @@ Tomography',NULL),('157',NULL,NULL,
 'Eye Angiography',NULL),('160',NULL,NULL,
 'Refraction',NULL),('161',NULL,
 'Angiography',NULL,NULL),('162',NULL, 'Endoscopy',NULL,NULL);
+
+
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('2','10AIH','	Factor X Inhibitor Profile, Professional Interpretation','	69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 10INE / Factor X Inhibitor Evaluation, Plasma
+ 
+Medical Interpretation"'),('3','
+10INE','	Factor X Inhibitor Evaluation, Plasma','	96457-7	','Coagulation factor X activity & inhibitor panel:-:Pt:PPP:-:Coag','	Optical Clot-Based'),('4','
+10INT','	Factor X Inhibitor Profile, Technical Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 10INE / Factor X Inhibitor Evaluation, Plasma.
+ 
+Technical Interpretation"'),('5','
+10_IS','	Factor X Inhibitor Screen, Plasma','	39556-6','	Coagulation factor X inhibitor:PrThr:Pt:PPP:Ord:Coag','	"Only orderable as a reflex. For more information see:
+10INE / Factor X Inhibitor Evaluation, Plasma
+ALBLD / Bleeding Diathesis Profile, Limited, Plasma
+APROL / Prolonged Clot Time Profile, Plasma
+
+Optical Clot-Based"'),('6','
+11AIH','	Factor XI Inhibitor Profile, Professional Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 11INE / Factor XI Inhibitor Evaluation, Plasma.
+
+Medical Interpretation"'),('7','
+11INE','	Factor XI Inhibitor Evaluation, Plasma','	96453-6','	Coagulation factor XI activity & inhibitor panel:-:Pt:PPP:-:Coag','	Optical Clot-Based'),('8','
+11INT','	Factor XI Inhibitor Profile, Technical Interpretation	','69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 11INE / Factor XI Inhibitor Evaluation, Plasma
+ 
+Technical Interpretation"'),('9','
+11_IS','	Factor XI Inhibitor Screen, Plasma','	80603-4','	Coagulation factor XI inhibitor:PrThr:Pt:PPP:Ord:Coag','	"Only orderable as part of a profile. For more information see:
+11INE / Factor XI Inhibitor Evaluation, Plasma
+ALBLD / Bleeding Diathesis Profile, Limited, Plasma
+APROL / Prolonged Clot Time Profile, Plasma
+
+Optical Clot-Based"'),('10','
+12PU1','	Protein, Total, 12 Hour, Urine	','26801-1','	Protein:MRat:12H:Urine:Qn:','	Turbidimetry
+17BFP	Fluticasone 17-Beta-Carboxylic Acid, Random, Urine	46952-8	Fluticasone propionate:MCnc:Pt:Urine:Qn:	Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('11','
+17OHP','	17-Hydroxypregnenolone, Serum','	6765-2','	17-Hydroxypregnenolone:MCnc:Pt:Ser/Plas:Qn:	','Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('12','
+199PC','	Carbohydrate Antigen 19-9 (CA 19-9), Pancreatic Cyst Fluid','	97750-4','	Cancer',' Ag 19-9:ACnc:Pt:Asp:Qn:	Immunoenzymatic Assay'),('13','
+199PT','	Carbohydrate Antigen 19-9 (CA 19-9), Peritoneal Fluid	','50781-4','	Cancer',' Ag 19-9:ACnc:Pt:Periton fld:Qn:	Immunoenzymatic Assay'),('14','
+1A2Q','	Cytochrome P450 1A2 Genotype, Varies','	80687-7	','CYP1A2 gene targeted mutation analysis:Find:Pt:Bld/Tiss:Doc:Molgen','	Real-Time Polymerase Chain Reaction (PCR) with Allelic Discrimination Analysis'),('15','
+1DIS','	Human Leukocyte Antigens (HLA) A-B-C Disease Association Typing Low Resolution, Blood','	96629-1	','HLA-A & B & C (class I) typing panel:-:Pt:Bld/Tiss:-:Low resolution','	Polymerase Chain Reaction (PCR)/Sequence-Specific Oligonucleotide Probes (SSO)'),('16','
+1STT1','	First Trimester Maternal Screen, Serum','	49086-2','	First trimester maternal screen with nuchal translucency panel:-:Pt:^Patient:-:','	Immunoenzymatic Assay'),('17','
+21DOC','	21-Deoxycortisol, Serum','	74872-3','	21-Deoxycortisol:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('18','
+21OH','	21-Hydroxylase Antibodies, Serum','	85363-0	','21-Hydroxylase Ab:PrThr:Pt:Ser:Ord:','	Enzyme-linked Immunosorbent Assay (ELISA)'),('19','
+22C3','	Programmed Death-Ligand 1 (PD-L1) (22C3), Semi-Quantitative Immunohistochemistry, Manual','	85147-7','	Programmed cell death ligand 1 by clone 22C3:Find:Pt:Tiss:Doc:Immune stain','	Immunohistochemistry (IHC)'),('20','
+23BPR	','2,3-Dinor 11 Beta-Prostaglandin F2 Alpha, Random, Urine','	97658-9','	2,3-dinor 11 beta-Prostaglandin F2 alpha/Creatinine:MRto:Pt:Urine:Qn:','	"R23BP: Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)
+CRETR: Enzymatic Colorimetric Assay"');
