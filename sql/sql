@@ -1113,3 +1113,82 @@ Optical Clot-Based"'),('38','
 5INHT','	Factor V Inhibitor Profile, Technical Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 5INHE / Factor V Inhibitor Evaluation, Plasma.
  
 Technical Interpretation"');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('40','5BETH','Factor V Bethesda Units, Plasma','	3191-4	','Coagulation factor V inhibitor:ACnc:Pt:PPP:Qn:Coag	','"Only orderable as a reflex. For more information see:
+ALUPP / Lupus Anticoagulant Profile, Plasma
+ALBLD / Bleeding Diathesis Profile, Limited, Plasma
+APROL / Prolonged Clot Time Profile, Plasma
+5INHE / Factor V Inhibitor Evaluation, Plasma
+
+Optical Clot-Based"'),('41','
+5INHE','	Factor V Inhibitor Evaluation, Plasma','	96458-5','	Coagulation factor V activity & inhibitor panel:-:Pt:PPP:-:Coag','	Optical Clot-Based'),('42','
+5INHT','	Factor V Inhibitor Profile, Technical Interpretation	','69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 5INHE / Factor V Inhibitor Evaluation, Plasma.
+ 
+Technical Interpretation"'),('43','
+6MAMM','	6-Monoacetylmorphine (6-MAM), Confirmation, Meconium','	29345-6	','6-Monoacetylmorphine:MCnt:Pt:Meconium:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('44','
+6MAMU','	6-Monoacetylmorphine Confirmation, Random, Urine','	19593-3','	6-Monoacetylmorphine:MCnc:Pt:Urine:Qn:Confirm','	Gas Chromatography-Mass Spectrometry (GC-MS)'),('45','
+6MAMX','	6-Monoacetylmorphine, Chain of Custody, Random, Urine','	19593-3','	6-Monoacetylmorphine:MCnc:Pt:Urine:Qn:Confirm','	Gas Chromatography-Mass Spectrometry (GC-MS)'),('46','
+7AC4','	7AC4, Bile Acid Synthesis, Serum','	94866-1	','7-Alpha hydroxy-4-cholesten-3-one:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('46','
+7AINH','	Factor VII Inhibitor Profile, Professional Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 7INHE / Factor VII Inhibitor Evaluation, Plasma.
+
+Medical Interpretation"'),('47','
+7INHE	','Factor VII Inhibitor Evaluation, Plasma','	90225-4	','Coagulation factor VII activity & inhibitor panel:-:Pt:PPP:-:Coag','	Optical Clot-Based'),('48','
+7INHT','	Factor VII Inhibitor Profile, Technical Interpretation','	69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 7INHE / Factor VII Inhibitor Evaluation, Plasma.
+
+Technical Interpretation"'),('49','
+8AINH','	Factor VIII Inhibitor Profile, Professional Interpretation	','69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 8INHE / Factor VIII Inhibitor Evaluation, Plasma.
+
+Medical Interpretation"'),('50','
+8INHE','	Factor VIII Inhibitor Evaluation, Plasma','	96456-9','	Coagulation factor VIII activity & inhibitor panel:-:Pt:PPP:-:Coag	','Optical Clot-Based'),('51','
+8INHT','	Factor VIII Inhibitor Profile, Technical Interpretation	','69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:	','"Only orderable as part of a profile. For more information see 8INHE / Factor VIII Inhibitor Evaluation, Plasma.
+ 
+Technical Interpretation"'),('52','
+9AINH','	Factor IX Inhibitor Profile, Professional Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 9INHE / Factor IX Inhibitor Evaluation, Plasma
+
+Medical Interpretation"'),('53','
+9INHE','	Factor IX Inhibitor Evaluation, Plasma	','96459-3','	Coagulation factor IX activity & inhibitor panel:-:Pt:PPP:-:Coag	','Optical Clot-Based'),('54','
+9INHT','	Factor IX Inhibitor Profile Technical Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 9INHE / Factor IX Inhibitor Evaluation, Plasma.
+ 
+Technical Interpretation"'),('55','
+A124','	Alpha-1-Microglobulin, 24 Hour, Urine','	99075-4	','Alpha-1-Microglobulin/Creatinine:MRto:24H:Urine:Qn:','	"AIM, A1MCR: Calculation
+A1MC: Immunonephelometry
+CRT24: Enzymatic Colorimetric Assay"');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('57','A1AF','	Alpha-1-Antitrypsin, Random, Feces','	9407-8','	Alpha 1 antitrypsin:MCnc:Pt:Stool:Qn:','	Nephelometry'),('58','
+A1AFS','	Alpha-1-Antitrypsin Clearance, Feces and Serum	','93419-0','	Alpha 1 antitrypsin fecal clearance panel:-:Pt:Ser','	Nephelometry'),('59','
+A1APP','	Alpha-1-Antitrypsin Phenotype, Serum','	32769-2	','Alpha 1 antitrypsin phenotype:Imp:Pt:Ser/Plas:Nom:','	"A1AP2: Isoelectric Focusing
+AATP: Nephelometry"'),('60','
+A1CJ','	Hemoglobin A1c, Blood','	55399-0','	Diabetes tracking panel:-:Pt:^Patient:-:','	Ion-Exchange Chromatography Quantitative'),('61','
+A1R','	A1 Antigen Subtype, Blood','	844-1	','A1 Ag:PrThr:Pt:RBC:Ord:	','Hemagglutination'),('62','
+A2M','	Alpha-2-Macroglobulin, Serum','	1835-8','	Alpha-2-Macroglobulin:MCnc:Pt:Ser/Plas:Qn:','	Nephelometry'),('63','
+A2PI','	Alpha-2 Plasmin Inhibitor, Plasma','	27810-1','	Plasmin inhibitor actual/Normal:RelCCnc:Pt:PPP:Qn:','Chromo	Chromogenic'),('64','
+AACSF','	Amino Acids, Quantitative, Spinal Fluid	','35507-3','	Amino acids panel:SCnc:Pt:CSF:Qn:','	"Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)
+Portions of this test are covered by patents held by Quest Diagnostics"'),('65','
+AAH	','Amyloid A (Hepatic) Immunostain, Technical Component Only','	Order only;no result',NULL,'		Immunohistochemistry (IHC)'),('66','
+AAMSD','	Amino Acids, Maple Syrup Urine Disease Panel, Plasma','	94566-7','	Maple syrup urine disease therapy monitoring panel:-:Pt:Ser/Plas:Qn:','	"Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)
+Portions of this test are covered by patents held by Quest Diagnostics"'),('67','
+AAMY','	Alpha-Amylase, IgE, Serum	','7073-0','	Amylase Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('68','
+AAPD','	Amino Acids, Quantitative, Random, Urine','	35087-6	','Amino acids panel:-:Pt:Urine:Qn:','	"Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)
+Portions of this test are covered by patents held by Quest Diagnostics"'),('69','
+AAQP','	Amino Acids, Quantitative, Plasma','	35083-5	','Amino acids panel:SCnc:Pt:Ser/Plas:Qn:','	"Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)
+Portions of this test are covered by patents held by Quest Diagnostics"'),('70','
+AAT	','Alpha-1-Antitrypsin, Serum','	6771-0	','Alpha 1 antitrypsin:MCnc:Pt:Ser/Plas:Qn:Nephelometry','	Nephelometry'),('71','
+AATHI	','Thrombophilia Profile Interpretation','	69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see AATHR / Thrombophilia Profile, Plasma.
+
+Medical Interpretation"'),('72','
+AATHR','	Thrombophilia Profile, Plasma and Whole Blood','	98125-8	','Intravascular coagulation and fibrinolysis panel:-:Pt:^Patient:-:','	"PTSC, APTSC, DRV1, TTSC, APCRV: Optical Clot-Based
+CLFIB: Clauss
+DIMER, PSF: Latex Immunoassay (LIA)
+ATTF, CFX: Chromogenic Assay
+PTNT: Direct Variant Analysis
+AATHI: Medical Interpretation"'),('73','
+AATRP','	Alpha-1-Antitrypsin Immunostain, Technical Component Only','	Order only;no result',NULL,'		Immunohistochemistry (IHC)'),('74','
+AAUCD','	Amino Acids, Urea Cycle Disorders Panel, Plasma	','100368-0	','Amino Acids Urea Cycle Panel:-:Pt:Ser/Plas:-:LC/MS/MS','	Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('75','
+AB2GP','	Beta-2 Glycoprotein 1 Antibodies, IgA, Serum','	44447-1','	Beta 2 glycoprotein 1 ','Ab.IgA:ACnc:Pt:Ser/Plas:Qn:IA	Enzyme-Linked Immunosorbent Assay (ELISA)'),('76','
+ABCRS','	Alpha/Beta Crystallin IHC, Technical Component',' Only	Order only;no result',NULL,'		Immunohistochemistry'),('77','
+ABIDR','	Antibody Identification, Blood and Serum','	888-8','	Blood group antibodies identified:Prid:Pt:Ser/Plas','	Hemagglutination'),('78','
+ABOMR','	ABO/Rh, Blood','	882-1','	ABO & Rh group:Type:Pt:Bld:Nom:','	Hemagglutination'),('79','
+ABONR','	ABO/Rh Newborn, Blood','	19057-9	','ABO & Rh group:Type:Pt:Bld^Newborn:Nom:','	Hemagglutination'),('80','
+ABOPC','	Arbovirus Antibody Panel, IgG and IgM, Spinal Fluid','	49094-6	','Arbovirus Ab.IgG & IgM panel:-:Pt:CSF:-:IF','	Immunofluorescence Assay (IFA)'),('81','
+ABTIR','	Antibody Titer, Blood and Serum','	50962-0	','XXX blood group Ab.IgG:Titr:Pt:Ser/Plas:Qn:','	Hemagglutination'),('82','
+ABYSR','	Antibody Screen with Reflexed Antibody Identification, Blood','	890-4','	Blood group antibody screen:PrThr:Pt:Ser/Plas:Ord:	','Hemagglutination'),('83','
+ACAC','	Acacia, IgE, Serum','	6015-2	','Acacia longifolia Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('84','
+ACAR','	Acarus siro, IgE, Serum	','6254-7','	Acarus siro Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)');
