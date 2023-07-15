@@ -1076,3 +1076,40 @@ Optical Clot-Based"'),('10','
 22C3','	Programmed Death-Ligand 1 (PD-L1) (22C3), Semi-Quantitative Immunohistochemistry, Manual','	85147-7','	Programmed cell death ligand 1 by clone 22C3:Find:Pt:Tiss:Doc:Immune stain','	Immunohistochemistry (IHC)'),('20','
 23BPR	','2,3-Dinor 11 Beta-Prostaglandin F2 Alpha, Random, Urine','	97658-9','	2,3-dinor 11 beta-Prostaglandin F2 alpha/Creatinine:MRto:Pt:Urine:Qn:','	"R23BP: Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)
 CRETR: Enzymatic Colorimetric Assay"');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('21','23BPT','	2,3-Dinor 11 Beta-Prostaglandin F2 Alpha, 24 Hour, Urine','	94381-1	','2,3-dinor 11 beta-Prostaglandin F2 alpha/Creatinine:MRto:24H:Urine:Qn:','	"T23BP: Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)
+CRT24: Enzymatic Colorimetric Assay"'),('22','
+2425D','	25-Hydroxyvitamin D:24,25-Dihydroxyvitamin D Ratio, Serum','	94674-9	','Calcidiol+ercalcidiol/24r-Hydroxycalcidiol+24r-Hydroxyercalcidiol ratio panel:-:Pt:Ser/Plas:-:','	"Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)
+Portions of this test are covered by patent(s) held by Quest Diagnostics"'),('23','
+25HDN','	25-Hydroxyvitamin D2 and D3, Serum','	49590-3','	Calcidiol & Calciferol panel:-:Pt:Ser/Plas:-:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('24','
+288PD','	Programmed Death-Ligand 1 (PD-L1) (28-8), Semi-Quantitative Immunohistochemistry, Manual','	85148-5','	Programmed cell death ligand 1 by clone 28-8:Find:Pt:Tiss:Doc:Immune stain','	Immunohistochemistry (IHC)'),('25','
+2AINH','	Factor II Inhibitor Profile, Professional Interpretation','	69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 2INHE / Factor II Inhibitor Evaluation, Plasma.
+
+Medical Interpretation"'),('26','
+2B6Q','	Cytochrome P450 2B6 Genotype, Varies','	72511-9','	CYP2B6 gene targeted mutation analysis:Find:Pt:Bld/Tiss:Doc:Molgen','	Real Time-Polymerase Chain Reaction (RT-PCR) with Allelic Discrimination Analysis'),('27','
+2C19R','	Cytochrome P450 2C19 Genotype, Varies','	57132-3','	CYP2C19 gene allele:Geno:Pt:Bld/Tiss:Nom:Molgen','	Real-Time Polymerase Chain Reaction (PCR) with Allelic Discrimination Analysis'),('28','
+2C9QT','	Cytochrome P450 2C9 Genotype, Varies','	46724-1','	CYP2C9 gene allele:Geno:Pt:Bld/Tiss:Nom:Molgen','	Real-Time Polymerase Chain Reaction (PCR) with Allelic Discrimination Analysis'),('29','
+2D6Q','	Cytochrome P450 2D6 Comprehensive Cascade, Varies	','47403-1','	CYP2D6 gene targeted mutation analysis:Find:Pt:Bld/Tiss:Doc:Molgen	','"Tier 1: Real Time Polymerase Chain Reaction (PCR)
+Tier 2: Polymerase Chain Reaction (PCR) followed by DNA Sequence Analysis"'),('30','
+2DIS','	Human Leukocyte Antigens (HLA)-DR-DQ Disease Association Typing Low Resolution, Blood','	96640-8	','HLA-DP & DQ & DR (class II) typing panel:-:Pt:Bld/Tiss:-:Low resolution	','Polymerase Chain Reaction (PCR)/Sequence-Specific Oligonucleotide Probes (SSO)'),('31','
+2HGA','	2-Hydroxyglutaric Acid Chiral Analysis, Quantitative, Random, Urine','	79297-8','	D- & L-2-hydroxyglutarate panel:-:Pt:Urine:-:','	Gas Chromatography-Mass Spectrometry (GC-MS)'),('32','
+2INHE','	Factor II Inhibitor Evaluation, Plasma','	96455-1	','Coagulation factor II activity & inhibitor panel:-:Pt:PPP:-:Coag','	Optical Clot-Based'),('33','
+2INHT','	Factor II Inhibitor Profile, Technical Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 2INHE / Factor II Inhibitor Evaluation, Plasma.
+ 
+Technical Interpretation"'),('34','
+3A4Q','	Cytochrome P450 3A4 Genotype, Varies','	74007-6','	CYP3A4 gene targeted mutation analysis:Find:Pt:Bld/Tiss:Doc:Molgen','	Polymerase Chain Reaction (PCR) With Allelic Discrimination Analysis'),('35','
+3A5Q','	Cytochrome P450 3A5 Genotype, Varies','	81140-6	','CYP3A5 gene allele:Geno:Pt:Bld/Tiss:Nom:Molgen','	Polymerase Chain Reaction (PCR) With Allelic Discrimination Analysis
+3MT	3-Methoxytyramine, 24 Hour, Urine	32618-1	3-Methoxytyramine:MRat:24H:Urine:Qn:	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('36','
+5AINH','	Factor V Inhibitor Profile, Professional Interpretation	','69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:	','"Only orderable as a reflex. For more information see 5INHE / Factor V Inhibitor Evaluation, Plasma.
+
+Medical Interpretation"'),('37','
+5BETH','	Factor V Bethesda Units, Plasma','	3191-4','	Coagulation factor V inhibitor:ACnc:Pt:PPP:Qn:Coag	','"Only orderable as a reflex. For more information see:
+ALUPP / Lupus Anticoagulant Profile, Plasma
+ALBLD / Bleeding Diathesis Profile, Limited, Plasma
+APROL / Prolonged Clot Time Profile, Plasma
+5INHE / Factor V Inhibitor Evaluation, Plasma
+
+Optical Clot-Based"'),('38','
+5INHE','	Factor V Inhibitor Evaluation, Plasma','	96458-5	','Coagulation factor V activity & inhibitor panel:-:Pt:PPP:-:Coag	','Optical Clot-Based'),('39','
+5INHT','	Factor V Inhibitor Profile, Technical Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 5INHE / Factor V Inhibitor Evaluation, Plasma.
+ 
+Technical Interpretation"');
