@@ -51,13 +51,63 @@ include('head.php'); ?>
 <br>
         
                         
-                </div>
+                           </div>
             </div>
             
 
         <h2></h2>
-                
+        <?php
+        include 'conn.php';
+
+        $limit = 500;
+        if(isset($_GET['page'])){
+          $page = $_GET['page'];
+        }else{
+          $page = 1;
+        }
+        $offset = ($page - 1) * $limit;
+        $count=$offset+1;
+        $sql= "select * from tests LIMIT {$offset},{$limit}";
+        $result=mysqli_query($conn,$sql);
         
+          if(mysqli_num_rows($result)>0)   {
+            ?>
+             <h3 class="table-title">Table : LOINC VALUES </h3>
+       <div class="table-responsive">
+      <table class="table table-bordered" style="text-align:center">
+          <thead style="text-align:center">
+          <th style="text-align:center">S.no</th>
+          <th style="text-align:center">Test ID</th>
+          <th style="text-align:center">Test Order Name</th>
+          <th style="text-align:center">Order LOINC CODE</th>
+          <th style="text-align:center">LOINC Atrributes</th>
+          <th style="text-align:center">Method Name</th>
+         
+          </thead>
+          <tbody>
+            <?php
+            while($row = mysqli_fetch_assoc($result)) { ?>
+          <tr>
+                  <td><?php echo $count++; ?></td>
+                  <td><?php echo $row['Test_id']; ?></td>
+                  <td><?php echo $row['Order_name']; ?></td>
+                  <td><?php echo $row['Loinc_code']; ?></td>
+                  <td><?php echo $row['Loinc_attribute']; ?></td>
+                  <td><?php echo $row['method_name']; ?></td>
+                   
+                </td>
+
+
+
+              </tr>
+            <?php } ?>
+          </tbody>
+      </table>
+      
+      
+    </div>
+    <?php } ?>
+    <br><br><br>
 
   <div class="footer">
 <?php
