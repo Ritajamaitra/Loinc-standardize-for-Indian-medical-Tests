@@ -1127,28 +1127,28 @@ Technical Interpretation"'),('43','
 6MAMM','	6-Monoacetylmorphine (6-MAM), Confirmation, Meconium','	29345-6	','6-Monoacetylmorphine:MCnt:Pt:Meconium:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('44','
 6MAMU','	6-Monoacetylmorphine Confirmation, Random, Urine','	19593-3','	6-Monoacetylmorphine:MCnc:Pt:Urine:Qn:Confirm','	Gas Chromatography-Mass Spectrometry (GC-MS)'),('45','
 6MAMX','	6-Monoacetylmorphine, Chain of Custody, Random, Urine','	19593-3','	6-Monoacetylmorphine:MCnc:Pt:Urine:Qn:Confirm','	Gas Chromatography-Mass Spectrometry (GC-MS)'),('46','
-7AC4','	7AC4, Bile Acid Synthesis, Serum','	94866-1	','7-Alpha hydroxy-4-cholesten-3-one:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('46','
+7AC4','	7AC4, Bile Acid Synthesis, Serum','	94866-1	','7-Alpha hydroxy-4-cholesten-3-one:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('47','
 7AINH','	Factor VII Inhibitor Profile, Professional Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 7INHE / Factor VII Inhibitor Evaluation, Plasma.
 
-Medical Interpretation"'),('47','
-7INHE	','Factor VII Inhibitor Evaluation, Plasma','	90225-4	','Coagulation factor VII activity & inhibitor panel:-:Pt:PPP:-:Coag','	Optical Clot-Based'),('48','
+Medical Interpretation"'),('48','
+7INHE	','Factor VII Inhibitor Evaluation, Plasma','	90225-4	','Coagulation factor VII activity & inhibitor panel:-:Pt:PPP:-:Coag','	Optical Clot-Based'),('49','
 7INHT','	Factor VII Inhibitor Profile, Technical Interpretation','	69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 7INHE / Factor VII Inhibitor Evaluation, Plasma.
 
-Technical Interpretation"'),('49','
+Technical Interpretation"'),('50','
 8AINH','	Factor VIII Inhibitor Profile, Professional Interpretation	','69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 8INHE / Factor VIII Inhibitor Evaluation, Plasma.
 
-Medical Interpretation"'),('50','
-8INHE','	Factor VIII Inhibitor Evaluation, Plasma','	96456-9','	Coagulation factor VIII activity & inhibitor panel:-:Pt:PPP:-:Coag	','Optical Clot-Based'),('51','
+Medical Interpretation"'),('51','
+8INHE','	Factor VIII Inhibitor Evaluation, Plasma','	96456-9','	Coagulation factor VIII activity & inhibitor panel:-:Pt:PPP:-:Coag	','Optical Clot-Based'),('52','
 8INHT','	Factor VIII Inhibitor Profile, Technical Interpretation	','69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:	','"Only orderable as part of a profile. For more information see 8INHE / Factor VIII Inhibitor Evaluation, Plasma.
  
-Technical Interpretation"'),('52','
+Technical Interpretation"'),('53','
 9AINH','	Factor IX Inhibitor Profile, Professional Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as a reflex. For more information see 9INHE / Factor IX Inhibitor Evaluation, Plasma
 
-Medical Interpretation"'),('53','
-9INHE','	Factor IX Inhibitor Evaluation, Plasma	','96459-3','	Coagulation factor IX activity & inhibitor panel:-:Pt:PPP:-:Coag	','Optical Clot-Based'),('54','
+Medical Interpretation"'),('54','
+9INHE','	Factor IX Inhibitor Evaluation, Plasma	','96459-3','	Coagulation factor IX activity & inhibitor panel:-:Pt:PPP:-:Coag	','Optical Clot-Based'),('55','
 9INHT','	Factor IX Inhibitor Profile Technical Interpretation','	69049-5	','Coagulation specialist review:Imp:Pt:XXX:Nar:','	"Only orderable as part of a profile. For more information see 9INHE / Factor IX Inhibitor Evaluation, Plasma.
  
-Technical Interpretation"'),('55','
+Technical Interpretation"'),('56','
 A124','	Alpha-1-Microglobulin, 24 Hour, Urine','	99075-4	','Alpha-1-Microglobulin/Creatinine:MRto:24H:Urine:Qn:','	"AIM, A1MCR: Calculation
 A1MC: Immunonephelometry
 CRT24: Enzymatic Colorimetric Assay"');
