@@ -1240,3 +1240,177 @@ ACHE_: Polyacrylamide Electrophoresis"'),('118','
 AFPPT','	Alpha-Fetoprotein (AFP), Peritoneal Fluid','	49761-0','	Alpha-1-Fetoprotein:MCnc:Pt:Periton fld:Qn:','	Immunoenzymatic Assay'),('119','
 AFPSF','	Alpha-Fetoprotein (AFP), Spinal Fluid','	1833-3','	Alpha-1-Fetoprotein:MCnc:Pt:CSF:Qn:','	Immunoenzymatic Assay'),('120','
 AFSH','	Alpha Follicle Stimulating Hormone Immunostain, Technical Component Only','	Order only;no result	',NULL,'	Immunohistochemistry (IHC)');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('121','AFTDP	','Inherited Frontotemporal Dementia and Amyotrophic Lateral Sclerosis Gene Panel, Varies','	51966-0','	Genetic disease DNA analysis panel:-:Pt:Bld/Tiss:-:Molgen','	Sequence Capture and Targeted Next-Generation Sequencing followed by Polymerase Chain Reaction (PCR) and Sanger Sequencing'),('122','
+AFXN','	Friedreich Ataxia, Repeat Expansion Analysis, Varies','	21762-0	','FXN gene.GAA repeats:PrThr:Pt:Bld/Tiss:Ord:Molgen','	Polymerase Chain Reaction (PCR)'),('123','
+AGABS','	Alpha-Galactosidase, Blood Spot','	55908-8','	Alpha galactosidase A:CCnc:Pt:Bld.dot:Qn:','	Fluorometric Enzyme Assay'),('124','
+AGAS','	Alpha-Galactosidase, Serum	','1813-5	','Alpha galactosidase A:CCnc:Pt:Ser/Plas:Qn:','	Fluorometric'),('125','
+AGAW','	Alpha-Galactosidase, Leukocytes','	24049-9	','Alpha galactosidase A:CCnt:Pt:WBC:Qn:','	Flow Injection Analysis-Tandem Mass Spectrometry'),('126','
+AGNTC','	Anti-Glial/Neuronal Nuclear Antibody-Type 1 (AGNA-1) Titer, Spinal Fluid	','93455-5','	Glial nuclear type 1 Ab.IgG:Titr:Pt:CSF:Qn:IF	','"Only orderable as a reflex. For more information see:
+-DMC2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-ENC2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-EPC2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-MDC2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-MAC1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+
+Indirect Immunofluorescence Assay (IFA)"');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('127','AGNTS','Anti-Glial/Neuronal Nuclear Antibody-Type 1 (AGNA-1) Titer, Serum','94341-5','Glial nuclear type 1 Ab.IgG:Titr:Pt:Ser:Qn:IF', '	"Only orderable as a reflex. For more information see:
+-PAVAL / Paraneoplastic, Autoantibody Evaluation, Serum
+-DMS2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Serum
+-ENS2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-EPS2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Serum
+-MDS2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Serum
+-MAS1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-AIAES / Axonal Neuropathy, Autoimmune/Paraneoplastic Evaluation, Serum
+Indirect Immunofluorescence Assay (IFA)"'),('128','
+AGSTM','	Additional Flow Stimulant, LPAGF (Bill Only)','	Order only;no result',NULL,'Flow Cytometry'),('129','
+AGU20','	Acylglycines, Quantitative, Random, Urine','	50334-2','	Acylglycines panel:MRto:Pt:Urine:-:	Gas Chromatography-Mass Spectrometry (GC-MS)',' Stable Isotope Dilution Analysis'),('130','
+AH50	','Alternative Complement Pathway, Functional, Serum','	74520-8','	Complement alternate pathway AH50 actual/normal:RelACnc:Pt:Ser:Qn:IA','	Enzyme-Linked Immunosorbent Assay (ELISA)'),('131','
+AHDV','	Hepatitis D Virus Total Antibodies, Serum','	40727-0','	Hepatitis D virus Ab:PrThr:Pt:Ser:Ord:IA','	Enzyme Immunoassay (EIA)'),('132','
+AHEP','	Acute Hepatitis Profile, Serum','	24363-4','	Acute hepatitis 2000 panel:-:Pt:Ser:-:	','"HAIGM: Chemiluminescent Microparticle Immunoassay (CMIA)
+HBAG, HBIM, HCVDX, HBGNT: Chemiluminescence Immunoassay (CIA)
+HCVQN: Real-Time Reverse Transcription-Polymerase Chain Reaction (RT-PCR)"');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('133','
+AHLP','	AudioloGene Hearing Loss Panel, Varies','	99972-2','	Hearing loss multigene analysis:Find:Pt:Bld/Tiss:Doc:Molgen	','Sequence Capture and Amplicon-Based Targeted Next-Generation Sequencing, Polymerase Chain Reaction (PCR), Digital Droplet PCR (ddPCR), Sanger Sequencing, and Gene Dosage Analysis by Multiplex Ligation-Dependent Probe Amplification (MLPA)'),('134','
+AHUGP','	Atypical Hemolytic Uremic Syndrome (aHUS)/Thrombotic Microangiopathy (TMA) /Complement 3 Glomerulopathy (C3G) Gene Panel, Varies','	99967-2','	Atypical hemolytic uremic syndrome multigene analysis:Find:Pt:Bld/Tiss:Doc:Molgen	','Sequence Capture and Amplicon-Based Next-Generation Sequencing (NGS)'),('135','
+AIAES','	Axonal Neuropathy, Autoimmune/Paraneoplastic Evaluation, Serum	','94695-4','	Axonal autoimmune Ab panel:-:Pt:Ser/Plas:-:	','"APBCS, CS2CS, LG1CS, AINCS, NFLCS, NFHCS, GFACS: Cell Binding Assay (CBA)
+AGN1S, AGNTS, AMPHS, APHTS, ANN1S, AN1TS, ANN3S, AN3TS, APBIS, APBTS, NIFIS, NIFTS, PCABP, PCAB2, PC1TS, PC2TS, GFAIS, GFATS, CRMTS: Indirect Immunofluorescence Assay (IFA)
+CRMWS; Western Blot (WB)
+AGNBS, AMIBS, AN1BS, PC1BS, AN2BS: Immunoblot (IB)"'),('136','
+AIVC','	Aldosterone, Inferior Vena Cava, Serum','	1763-2','	Aldosterone:MCnc:Pt:Ser/Plas:Qn:	','Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('137','
+AK1	','Adenylate Kinase Enzyme Activity, Blood	','44051-1','	Adenylate kinase:CCnt:Pt:RBC:Qn:','	Kinetic Spectrophotometry
+AKC	Adenylate Kinase Enzyme Activity, Blood	44051-1	Adenylate kinase:CCnt:Pt:RBC:Qn:	"Only available as part of a profile. For more information see:
+-HAEV1 / Hemolytic Anemia Evaluation, Blood
+-EEEV1 / Red Blood Cell (RBC) Enzyme Evaluation, Blood
+ 
+Kinetic Spectrophotometry"'),('138','
+AL','	Aluminum, Serum	','5574-9	','Aluminum:MCnc:Pt:Ser/Plas:Qn:	','Dynamic Reaction Cell-Inductively Coupled Plasma-Mass Spectrometry (DRC-ICP-MS)'),('139','
+ALAD','	Aminolevulinic Acid Dehydratase, Whole Blood','	12916-3','	Porphobilinogen synthase:CCnc:Pt:Bld:Qn:','	Enzymatic End point/Spectrofluorometric'),('140','
+ALADW','	Aminolevulinic Acid Dehydratase, Washed Erythrocytes','	2813-4','	Porphobilinogen synthase:CCnc:Pt:RBC:Qn:	','Enzymatic End point/Spectrofluorometric'),('141','
+ALAGP','	Alagille Syndrome Gene Panel, Varies','	51966-0','	Genetic disease DNA analysis panel:-:Pt:Bld/Tiss:-:Molgen	','Sequence Capture and Next Generation Sequencing (NGS)'),('142','
+ALAUR','	Aminolevulinic Acid, Urine	','34284-0','	Delta aminolevulinate:SCnc:Pt:Urine:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('143','
+ALAV','	Aldosterone, Left Adrenal Vein, Serum','	1763-2','	Aldosterone:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('144','
+ALB','	Albumin, Serum	','1751-7','	Albumin:MCnc:Pt:Ser/Plas:Qn:	','Photometric, Bromcresol Green'),('145','
+ALB24','	Albumin, 24 Hour, Urine','	1755-8','	Albumin:MRat:24H:Urine:Qn:','	Immunoturbidity'),('146','
+ALBFL','	Albumin, Body Fluid','	1747-5','	Albumin:MCnc:Pt:Body fld:Qn:','	Colorimetric'),('147','
+ALBLI','	Limited Bleeding Diathesis Profile Interpretation','	69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:','	Only orderable as part of a profile. For more information see ALBLD / Bleeding Diathesis Profile, Limited, Plasma.'),('148','
+ALBR','	Albumin, Random, Urine','	9318-7','	Albumin/Creatinine:MRto:Pt:Urine:Qn:','	"RALB1: Immunoturbidity
+CRE2: Enzymatic Colorimetric Assay"'),('149','
+ALBS1','	Albumin, Serum','	1751-7	','Albumin:MCnc:Pt:Ser/Plas:Qn:	','"Only orderable as part of profile. For more information see: SFIG / Cerebrospinal Fluid (CSF) IgG Index Profile, Serum and Spinal Fluid.
+ 
+Photometric"'),('150','
+ALBSF','	Albumin, Spinal Fluid','	1746-7','	Albumin:MCnc:Pt:CSF:Qn:','	Nephelometry'),('151','
+ALC','	Ethanol, Blood','	56478-1	','Ethanol:MCnc:Pt:Bld:Qn:GC','	Headspace Gas Chromatography-Flame Ionization Detector (HSGC-FID)'),('152','
+ALCU','	Aluminum/Creatinine Ratio, Urine','	13470-0','	Aluminum/Creatinine:MRto:Pt:Urine:Qn:','	"Only orderable as part of a profile. For more information see ALUCR / Aluminum/Creatinine Ratio, Random, Urine.
+
+Inductively Coupled Plasma-Mass Spectrometry (ICP-MS)"'),('153','
+ALCX','	Ethanol, Chain of Custody, Blood','	5640-8','	Ethanol:MCnc:Pt:Bld:Qn:','	Headspace Gas Chromatography-Flame Ionization Detector (HSGC-FID)'),('154','
+ALDEF','	Alpha Defensin, Lateral Flow Assay, Synovial Fluid','	94718-4','	Alpha defensins 1+2+3:PrThr:Pt:Synv fld:Ord:IA','	Lateral Flow Assay (LFA)'),('155','
+ALDG2','	Autoimmune Liver Disease Panel, Serum','	94700-2','	Liver diseases autoimmune Ab panel:-:Pt:Ser/Plas:-:','	"AMA: Enzyme Immunoassay (EIA)
+NAIFA, SMAS, SMAT: Indirect Immunofluorescence"'),('156','
+ALDNA','	Aldosterone with Sodium, 24 Hour, Urine	','94871-1','	Aldosterone & sodium panel:-:24H:Urine:Qn:','	"ALDU: Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)
+NAU: Potentiometric, Indirect Ion-Selective Electrode (ISE)"'),('157','
+ALDR','	Grey Alder, IgE, Serum	','15284-3','	Alnus incana Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('158','
+ALDS','	Aldosterone, Serum','	1763-2','	Aldosterone:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('159','
+ALDU','	Aldosterone, 24 Hour, Urine	','1765-7','	Aldosterone:MRat:24H:Urine:Qn:	','Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('160','
+ALFA','	Alpha-Lactalbumin, IgE, Serum','	7445-0','	Lactalbumin alpha Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('161','
+ALFP','	Alpha-Fetoprotein (AFP) Immunostain, Technical Component Only','	Order only;no result',NULL,'		Immunohistochemistry'),('162','
+ALGAL','	Galactose-Alpha-1,3-Galactose (Alpha-Gal), IgE, Serum','	73837-7	','Galactose-alpha-1,3-galactose Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('163','
+ALK','	Anaplastic Lymphoma Kinase Immunostain, Technical Component Only','	Order only;no result',NULL,'		Immunohistochemistry (IHC)'),('164','
+ALKI','	Alkaline Phosphatase, Total and Isoenzymes, Serum','	24332-9','	Alkaline phosphatase isoenz panel:-:Pt:Ser/Plas:-:','	"ALP: Colorimetric
+ALKE: Electrophoresis"'),('165','
+ALKLC','	Anaplastic Lymphoma Kinase for Lung Cancer, Immunohistochemistry','	47303-3','	Anaplastic lymphoma kinase Ag:PrThr:Pt:Tiss:Ord:Immune stain','	Immunohistochemistry (IHC)'),('166','
+ALLOI','	Allo-isoleucine, Blood Spot	','94571-7','	Branched chain amino acid panel:-:Pt:Bld.dot:Qn:','	"Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)
+Portions of this test are covered by patents held by Quest Diagnostics"'),('167','
+ALM	','Almond, IgE, Serum','	6019-4	','Prunus dulcis Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('168','
+ALP','	Alkaline Phosphatase, Serum','	6768-6','	Alkaline phosphatase:CCnc:Pt:Ser/Plas:Qn:','	Colorimetric'),('169','
+ALPGP','	Alport Syndrome Gene Panel, Varies','	51966-0','	Genetic disease DNA analysis panel:-:Pt:Bld/Tiss:-:Molgen','	Sequence Capture Next-Generation Sequencing (NGS)/Sanger Sequencing'),('170','
+ALP','	Alpha Beta Double-Negative T Cells for Autoimmune Lymphoproliferative Syndrome, Blood','	101414-1	','Lymphocyte TCR alpha beta double negative subsets panel:-:Pt:Bld:-:	','Flow Cytometry'),('171','
+ALS','	Aldolase, Serum','	1761-6','	Aldolase:CCnc:Pt:Ser/Plas:Qn:	','Photometric'),('178','
+ALT','	Alanine Aminotransferase (ALT) (GPT), Serum	','1743-4	','Alanine aminotransferase:CCnc:Pt:Ser/Plas:Qn:','With P-5-P	Photometric Rate, L-Alanine with Pyridoxal-5-Phosphate'),('179','
+ALTN','	Alternaria tenuis, IgE, Serum	','6020-2','	Alternaria alternata Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('180','
+ALU	','Aluminum, 24 Hour, Urine	','26707-0','	Aluminum:MRat:24H:Urine:Qn:','	Dynamic Reaction Cell-Inductively Coupled Plasma-Mass Spectrometry (DRC-ICP-MS)'),('181','
+ALUCR','	Aluminum/Creatinine Ratio, Random, Urine','	13470-0	','Aluminum/Creatinine:MRto:Pt:Urine:Qn:','	"ALCU: Inductively Coupled Plasma-Mass Spectrometry (ICP-MS)
+CRETR: Enzymatic Colorimetric Assay"'),('182','
+ALUPI','	Lupus Anticoagulant Profile Technical Interpretation','	75882-1','	Lupus anticoagulant three screening tests W Reflex:Imp:Pt:PPP:Nom:Coag	','"Only orderable as part of a profile. For more information see ALUPP / Lupus Anticoagulant Profile, Plasma.
+
+Technical Interpretation"'),('183','
+ALUPO','	Lupus Anticoagulant Profile Interpretation','	75882-1	','Lupus anticoagulant three screening tests W Reflex:Imp:Pt:PPP:Nom:Coag','	"Only orderable as a reflex. For more information see ALUPP / Lupus Anticoagulant Profile, Plasma. 
+ 
+Medical Interpretation"'),('184','
+ALUPP','	Lupus Anticoagulant Profile, Plasma','	75881-3','	Lupus anticoagulant three screening tests W Reflex panel:-:Pt:PPP:-:Coag	','PTSC, APTSC, DRV1: Optical Clot-Based'),('185','
+AMA','	Mitochondrial Antibodies (M2), Serum','	51715-1','	Mitochondria M2 Ab:ACnc:Pt:Ser:Qn:IA	','Enzyme Immunoassay (EIA)'),('186','
+AMBF','	Amylase, Body Fluid','	1795-4	','Amylase:CCnc:Pt:Body fld:Qn:','	Enzymatic Colorimetric'),('187','
+AMGEN	','Mycoplasma genitalium, Transcription-Mediated Amplification, Varies','	100706-1	','Mycoplasma genitalium:rRNA:PrThr:Pt:XXX:Ord:Probe.amp.tar','	Transcription-Mediated Amplification'),('188','
+AMH1	','Antimullerian Hormone, Serum	','83104-0','	Mullerian inhibiting substance:MCnc:Pt:Ser/Plas:Qn:IA	','Electrochemiluminescent Immunoassay (ECLIA)'),('189','
+AMIO','	Amiodarone, Serum','	55152-3','	Amiodarone & Desethylamiodarone panel:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography Mass Spectrometry (LC-MS/MS)'),('190','
+AMISO	','Amylase, Isoenzymes, Serum','	24333-7	','Amylase isoenz 3 panel:-:Pt:Ser/Plas:Qn:	','"AMYSE, AMYPA: Colorimetric Rate Reaction
+AMYSA: Calculation"'),('191','
+AMLPC','	Amylase, Pancreatic Cyst Fluid','	48996-3	','Amylase.pancreatic:CCnc:Pt:Body fld:Qn:	','Substrate Kinetic'),('192','
+AMMO','	Ammonium, 24 Hour, Urine','	25308-8	','Ammonia:SRat:24H:Urine:Qn:	','Enzymatic'),('193','
+AMOBS','	Amobarbital, Serum','	3338-1	','Amobarbital:MCnc:Pt:Ser/Plas:Qn:','	Gas Chromatography-Mass Spectrometry (GC-MS)'),('194','
+AMOXY','	Amoxicillin, IgE, Serum','	6829-6	','Amoxicillin Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('195','
+AMP','	Ampicillin, IgE, Serum','	6712-4','	Ampicillin Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('196','
+AMPHM	','Amphetamine-Type Stimulants Confirmation, Meconium','	69021-4	','Amphetamines panel:-:Pt:Meconium:-:','Confirm	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('197','
+AMPHU','	Amphetamines Confirmation, Random, Urine','	97161-4','	Amphetamines panel:-:Pt:Urine:-:','Confirm	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('198','
+AMPHX	','Amphetamines Confirmation, Chain of Custody, Random, Urine','	97161-4','	Amphetamines panel:-:Pt:Urine:-:','Confirm	"AMPHX: Immunoassay/Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)
+ADLTX: Spectrophotometry"'),('199','
+AMPIP','	Amyloid Protein Identification, Paraffin, Mass Spectrometry','	101405-9','	Amyloid protein:Find:Pt:Tiss:Doc:Congo red stain+LC/MS/MS','	Histological Stain/Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('200','
+AMPMX','	Amphetamine-Type Stimulants Confirmation, Chain of Custody, Meconium	','69021-4','	Amphetamines panel:-:Pt:Meconium:-:Confirm','	Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('201','AN1TS	','Antineuronal Nuclear Antibody-Type 1 (ANNA-1) Titer, Serum	','94342-3','	Neuronal nuclear type 1 Ab.IgG:Titr:Pt:Ser:Qn:IF','	"Only orderable as a reflex. For more information see:
+-PAVAL / Paraneoplastic, Autoantibody Evaluation, Serum
+-GID2 / Gastrointestinal Dysmotility, Autoimmune/Paraneoplastic Evaluation, Serum
+-DYS2 / Dysautonomia, Autoimmune/Paraneoplastic Evaluation, Serum
+-DMS2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Serum
+-ENS2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-EPS2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Serum
+-MDS2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Serum
+-MAS1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-AIAES / Axonal Neuropathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-PCDES / Pediatric Autoimmune Encephalopathy/CNS Disorder Evaluation, Serum
+
+Indirect Immunofluorescence Assay (IFA)"'),('202','
+AN2TC','	Antineuronal Nuclear Antibody Type 2 (ANNA-2) Titer, Spinal Fluid','	94357-1','	Neuronal nuclear type 2 Ab.IgG:Titr:Pt:CSF:Qn:IF','	"Only orderable as a reflex. For more information see:
+-DMC2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-ENC2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-EPC2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-MDC2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-MAC1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+
+Indirect Immunofluorescence Assay (IFA)"'),('203','
+AN2TS','	Antineuronal Nuclear Antibody Type 2 (ANNA-2) Titer, Serum','	94343-1','	Neuronal nuclear type 2 Ab.IgG:Titr:Pt:Ser:Qn:IF	','"Only orderable as a reflex. For more information see:
+-PAVAL / Paraneoplastic, Autoantibody Evaluation, Serum
+-DMS2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Serum
+-ENS2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-EPS2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Serum
+-MDS2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Serum
+-MAS1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+
+Indirect Immunofluorescence Assay (IFA)"'),('204','
+AN3TC','	Antineuronal Nuclear Antibody Type 3 (ANNA-3) Titer, Spinal Fluid','	94358-9','	Neuronal nuclear type 3 Ab.IgG:Titr:Pt:CSF:Qn:IF','	"Only orderable as a reflex. For more information see:
+-DMC2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-ENC2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-EPC2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-MDC2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+-MAC1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
+
+Indirect Immunofluorescence Assay (IFA)"'),('205','
+AN3TS','	Antineuronal Nuclear Antibody Type 3 (ANNA-3) Titer, Serum	','94344-9','	Neuronal nuclear type 3 Ab.IgG:Titr:Pt:Ser:Qn:IF','	"Only orderable as a reflex. For more information see:
+-PAVAL / Paraneoplastic, Autoantibody Evaluation, Serum
+-DMS2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Serum
+-ENS2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-EPS2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Serum
+-MDS2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Serum
+-AIAES / Axonal Neuropathy, Autoimmune/Paraneoplastic Evaluation, Serum
+-MAS1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Serum
+
+Indirect Immunofluorescence Assay (IFA)"'),('206','
+ANA2','	Antinuclear Antibodies (ANA), Serum','	94875-2	','Nuclear Ab.IgG:ACnc:Pt:Ser/Plas:Qn:IA	','Enzyme-Linked Immunosorbent Assay (ELISA)'),('207','
+ANAE','	Bacterial Culture, Anaerobic, Varies','	635-3','	Bacteria identified:Prid:Pt:XXX:Nom:','Anaerobic culture	Conventional Culture Technique'),('208','
+ANAES','	Bacterial Culture, Anaerobic with Antimicrobial Susceptibilities, Varies','	635-3','	Bacteria identified:Prid:Pt:XXX:Nom:','Anaerobic culture	Conventional Culture Technique with Minimal Inhibitory Concentration (MIC) by Agar Dilution (if appropriate)'),('209','
+ANAP	','Anaplasma phagocytophilum (Human Granulocytic Ehrlichiosis) Antibody, Serum	','23877-4	','Anaplasma phagocytophilum Ab.IgG:Titr:Pt:Ser:Qn:IF','	Immunofluorescence Assay (IFA)'),('210','
+ANAS','	Alpha-N-Acetylglucosaminidase, Serum','	1837-4','	Alpha-N-acetylglucosaminidase:CCnc:Pt:Ser/Plas:Qn:','	Colorimetric'),('211','
+ANCA','	Cytoplasmic Neutrophil Antibodies, Serum','	87427-1	','Neutrophil cytoplasmic Ab panel:-:Pt:Ser:-:IF','	Indirect Immunofluorescence'),('212','
+ANCA2','	Cytoplasmic Neutrophil Antibodies, Inflammatory Bowel Disease Panel, Serum','	17355-9','	Neutrophil cytoplasmic Ab.IgG:PrThr:Pt:Ser:Ord:','	"Only orderable as part of a profile. For more information see IBDP2 / Inflammatory Bowel Disease Serology Panel, Serum.
+ 
+Indirect Immunofluorescent Assay (IFA)"');
