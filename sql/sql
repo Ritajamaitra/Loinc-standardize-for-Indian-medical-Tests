@@ -1192,3 +1192,51 @@ ABTIR','	Antibody Titer, Blood and Serum','	50962-0	','XXX blood group Ab.IgG:Ti
 ABYSR','	Antibody Screen with Reflexed Antibody Identification, Blood','	890-4','	Blood group antibody screen:PrThr:Pt:Ser/Plas:Ord:	','Hemagglutination'),('83','
 ACAC','	Acacia, IgE, Serum','	6015-2	','Acacia longifolia Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('84','
 ACAR','	Acarus siro, IgE, Serum	','6254-7','	Acarus siro Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('85','ACARP	','Acanthamoeba species Molecular Detection, PCR, Ocular','	41429-2','	Acanthamoeba sp DNA:PrThr:Pt:XXX:Ord:Probe.amp.tar','	Real-Time Polymerase Chain Reaction (PCR)/TaqMan DNA Probe Hybridization'),('86','
+ACASM','	Pernicious Anemia Cascade, Serum','	2132-9	','Cobalamins:MCnc:Pt:Ser/Plas:Qn:','	Immunoenzymatic Assay'),('87','
+ACC','	Adrenal Mass Panel, 24 Hour, Urine','	95556-7','	Adrenal cancer risk assessment & urine steroid fractions panel:-:-:^Patient:-:','	Liquid Chromatography-Tandem Mass Spectrometry, High-Resolution Accurate Mass (LC-MS/MS HRAM)'),('88','
+ACE','	Angiotensin Converting Enzyme, Serum','	2742-5','	Angiotensin converting enzyme:CCnc:Pt:Ser/Plas:Qn:','	Spectrophotometry (SP)'),('89','
+ACHE_','	Acetylcholinesterase, Amniotic Fluid','	30106-9	','Acetylcholinesterase:PrThr:Pt:Amnio fld:Ord:','	Polyacrylamide Electrophoresis'),('90','
+ACHS','	Acetylcholinesterase, Erythrocytes','	49230-6','	Acetylcholinesterase:CCnt:Pt:RBC:Qn:','	Spectrophotometric-Thiocholine Production'),('91','
+ACLIP','	Phospholipid (Cardiolipin) Antibodies, IgA, Serum','	5076-5','	Cardiolipin Ab.IgA:ACnc:Pt:Ser:Qn:IA','	Enzyme-Linked Immunosorbent Assay (ELISA)'),('92','
+ACMA','	Acetaminophen, Serum','	3298-7','	Acetaminophen:MCnc:Pt:Ser/Plas:Qn:','	Photometric'),('93','
+ACMFS','	Acetylcholine Receptor Modulating Antibody, Flow Cytometry Assay, Serum	','99062-2','	Acetylcholine receptor modulation Ab:PrThr:Pt:Ser:Ord:Flow cytometry','	"Only orderable as part of a profile. For more information see:
+MGLE / Myasthenia Gravis/Lambert-Eaton Myasthenic Syndrome Evaluation, Serum
+MGMR / Myasthenia Gravis Evaluation with Muscle-Specific Kinase (MuSK) Reflex, Serum
+PAVAL / Paraneoplastic, Autoantibody Evaluation, Serum
+
+Flow Cytometry"'),('94','
+ACRN','	Acylcarnitines, Quantitative, Plasma','	43433-2	','Acylcarnitine panel:-:Pt:Ser/Plas:-:','	Flow Injection Analysis-Tandem Mass Spectrometry (FIA-MS/MS)'),('95','
+ACRNS','	Acylcarnitines, Quantitative, Serum','	43433-2','	Acylcarnitine panel:-:Pt:Ser/Plas:-:','	Flow Injection Analysis-Tandem Mass Spectrometry (FIA-MS/MS)'),('96','
+ACT	','Actinomyces Culture, Varies','	9816-0','	Actinomyces sp identified:Prid:Pt:XXX:Nom:','Organism specific culture	Conventional Culture Techniques'),('97','
+ACTH','	Adrenocorticotropic Hormone, Plasma	','2141-0	','Corticotropin:MCnc:Pt:Plas:Qn:','	Electrochemiluminescence Immunoassay'),('98','
+ACTHI','	Adrenocorticotropic Hormone (ACTH) Immunostain, Technical Component Only','	Order only;no result	',NULL,'	Immunohistochemistry'),('99','
+ADALX','	Adalimumab Quantitative with Reflex to Antibody, Serum','	86894-3','	Adalimumab:MCnc:Pt:Ser/Plas:Qn:IA','	Enzyme-Linked Immunosorbent Assay (ELISA)'),('100','
+ADEVL','	Alzheimer Disease Evaluation, Spinal Fluid	','98492-2','	Apolipoprotein E & beta amyloid Alzheimers risk panel:-:Pt:CSF:-:','	Electrochemiluminescent Immunoassay (ECLIA)'),('101','
+ADIC','	Disseminated Intravascular Coagulation/Intravascular Coagulation and Fibrinolysis (DIC/ICF) Profile, Plasma','	98125-8','	Intravascular coagulation and fibrinolysis panel:-:Pt:^Patient:-:','	"PTSC, APTSC, TTSC: Optical Clot-Based
+CLFIB: Clauss
+DIMER: Latex Immunoassay (LIA)
+ADICI: Medical Interpretation"'),('102','
+ADICI','	Disseminated Intravascular Coagulation/Intravascular Coagulation and Fibrinolysis (DIC/ICF) Profile Interpretation','	69049-5','	Coagulation specialist review:Imp:Pt:XXX:Nar:','	Only orderable as part of a profile. For more information see ADIC / Disseminated Intravascular Coagulation/Intravascular Coagulation and Fibrinolysis (DIC/ICF) Profile, Plasma.'),('103','
+ADLTX','	Adulterants Survey, Chain of Custody, Random, Urine	','58715-4','	Adulterants panel:-:Pt:Urine:-:	','Spectrophotometry'),('104','
+ADM13','	ADAMTS13 Activity and Inhibitor Profile, Plasma	','53622-7	','von Willebrand factor cleaving protease actual/normal:RelCCnc:Pt:PPP:Qn:Chromo','	Fluorescence Resonance Energy Transfer (FRET)'),('105','
+ADMA','	Asymmetric Dimethylarginine, Plasma','	80981-4','	N,N-dimethylarginine:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('106','
+ADMBU','	ADAMTS13 Inhibitor Bethesda Titer, Plasma','	40824-5','	von Willebrand factor cleaving protease inhibitor:ACnc:Pt:PPP:Qn:','	"This is not an orderable test.
+Only performed and charged as a reflex of profile ADM13 / ADAMTS13 Activity and Inhibitor Profile."'),('107','
+ADMIS','	ADAMTS13 Inhibitor Screen Assay, Plasma','	34590-0','	von Willebrand factor cleaving protease inhibitor:PrThr:Pt:PPP:Ord:','	"This is not an orderable test.
+Only performed and charged as a reflex of profile ADM13 / ADAMTS13 Activity and Inhibitor Profile."'),('108','
+ADNA','	DNA Double-Stranded Antibodies, IgG, Serum','	33799-8','	DNA double strand Ab.IgG:ACnc:Pt:Ser/Plas:Qn:IA','	Enzyme-Linked Immunosorbent Assay (ELISA)'),('109','
+ADNAR','	DNA Double-Stranded (dsDNA) Antibodies with Reflex, IgG, Serum	','33799-8','	DNA double strand Ab.IgG:ACnc:Pt:Ser/Plas:Qn:IA	','"ADNAR: Enzyme-Linked Immunosorbent Assay (ELISA)
+CRITH: Indirect Immunofluorescence"'),('110','
+ADNAS','	Anti-DNase B Titer, Serum','	5133-4','	DNAse B Ab.Streptococcal:ACnc:Pt:Ser:Qn:','	Nephelometry'),('111','
+ADPKP','	Focused Autosomal Dominant Polycystic Kidney Disease Gene Panel, Varies','	51966-0	','Genetic disease DNA analysis panel:-:Pt:Bld/Tiss:-:Molgen	','Sequence Capture and Amplicon-Based Next-Generation Sequencing (NGS)'),('112','
+ADULT','	Adulterants Survey, Random, Urine','	58714-7	','Oxidants:PrThr:Pt:Urine:Ord:','	Spectrophotometry (SP)'),('113','
+ADV	','Adenovirus Immunostain, Technical Component Only','	Order only;no result',NULL,'		Immunohistochemistry'),('114','
+AERMC','	Aeromonas Culture, Feces	','30122-6','	Aeromonas sp:PrThr:Pt:XXX:Ord:Organism specific culture	','Conventional Culture'),('115','
+AFH','	Factor H Autoantibody, Serum','	101863-9','	Complement factor H Ab:ACnc:Pt:Ser/Plas:Qn:IA	','Enzyme-Linked Immunosorbent Assay (ELISA)'),('116','
+AFP','	Alpha-Fetoprotein (AFP) Tumor Marker, Serum','	53962-7	','Alpha-1-Fetoprotein.tumor marker:MCnc:Pt:Ser/Plas:Qn:','	Immunoenzymatic Assay'),('117','
+AFPA','	Alpha-Fetoprotein, Amniotic Fluid','	58735-2','	Alpha-1-fetoprotein panel:-:Pt:Amnio fld:-:','	"AFPA: Immunoenzymatic Assay
+ACHE_: Polyacrylamide Electrophoresis"'),('118','
+AFPPT','	Alpha-Fetoprotein (AFP), Peritoneal Fluid','	49761-0','	Alpha-1-Fetoprotein:MCnc:Pt:Periton fld:Qn:','	Immunoenzymatic Assay'),('119','
+AFPSF','	Alpha-Fetoprotein (AFP), Spinal Fluid','	1833-3','	Alpha-1-Fetoprotein:MCnc:Pt:CSF:Qn:','	Immunoenzymatic Assay'),('120','
+AFSH','	Alpha Follicle Stimulating Hormone Immunostain, Technical Component Only','	Order only;no result	',NULL,'	Immunohistochemistry (IHC)');
