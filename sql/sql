@@ -1431,23 +1431,14 @@ INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attri
 -MAC1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Spinal Fluid
 -SPPC / Stiff-Person Spectrum Disorders Evaluation, including Progressive Encephalomyelitis with Rigidity and Myoclonus, Spinal Fluid
 
-Indirect Immunofluorescence Assay (IFA)'),
-('223','APHTS','Amphiphysin Antibody Titer Assay, Serum','94340-7','Amphiphysin Ab.IgGTitr:Pt:Ser:Qn:IF','Only orderable as a reflex. For more information see:
--PAVAL / Paraneoplastic, Autoantibody Evaluation, Serum
--DMS2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Serum
--ENS2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Serum
--EPS2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Serum
--MDS2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Serum
--MAS1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Serum
--SPPS / Stiff-Person Spectrum Disorders Evaluation, including Progressive Encephalomyelitis with Rigidity and Myoclonus, Serum
--AIAES / Axonal Neuropathy, Autoimmune/Paraneoplastic Evaluation, Serum
+Indirect Immunofluorescence Assay (IFA)');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('223','APHTS','Amphiphysin Antibody Titer Assay, Serum','94340-7','Amphiphysin Ab.IgGTitr:Pt:Ser:Qn:IF','Only orderable as a reflex. For more information see: -PAVAL / Paraneoplastic, Autoantibody Evaluation, Serum -DMS2 / Dementia, Autoimmune/Paraneoplastic Evaluation, Serum -ENS2 / Encephalopathy, Autoimmune/Paraneoplastic Evaluation, Serum -EPS2 / Epilepsy, Autoimmune/Paraneoplastic Evaluation, Serum -MDS2 / Movement Disorder, Autoimmune/Paraneoplastic Evaluation, Serum -MAS1 / Myelopathy, Autoimmune/Paraneoplastic Evaluation, Serum -SPPS / Stiff-Person Spectrum Disorders Evaluation, including Progressive Encephalomyelitis with Rigidity and Myoclonus, Serum -AIAES / Axonal Neuropathy, Autoimmune/Paraneoplastic Evaluation, Serum Indirect Immunofluorescence Assay (IFA)');
 
-Indirect Immunofluorescence Assay (IFA)'),
-('224','APIN','Australian Pine, IgE, Serum','6032-7','Casuarina equisetifolia Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)'),
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('224','APIN','Australian Pine, IgE, Serum','6032-7','Casuarina equisetifolia Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)'),
 ('225','APIVC','Aldosterone, Inferior Vena Cava, Plasma','1763-2','Aldosterone:MCnc:Pt:Ser/Plas:Qn:','Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),
 ('226','APIXA','Apixaban, Anti-Xa, Plasma','74214-8','Apixaban:MCnc:Pt:PPP:Qn:Chromo','Chromogenic Assay'),
 ('227','APLAV','Aldosterone, Left Adrenal Vein, Plasma','1763-2','Aldosterone:MCnc:Pt:Ser/Plas:Qn:','Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),
-('228','APMSC',	'Activated Partial Thromboplastin Time (APTT) Mix 1:1, Plasma','5946-9','Coagulation surface induced.factor substitution^immediately after addition of normal plasma:Time:Pt:PPP:Qn:Coag','Only orderable as a reflex.', 'For more information see:
+('228','APMSC',	'Activated Partial Thromboplastin Time (APTT) Mix 1:1, Plasma','5946-9','Coagulation surface induced.factor substitution^immediately after addition of normal plasma:Time:Pt:PPP:Qn:Coag','Only orderable as a reflex. For more information see:
 ALUPP / Lupus Anticoagulant Profile, Plasma
 ALBLD / Bleeding Diathesis Profile, Limited, Plasma
 AATHR / Thrombophilia Profile, Plasma
@@ -1457,13 +1448,14 @@ ADIC / Disseminated Intravascular Coagulation/Intravascular Coagulation and Fibr
 Optical Clot-Based'),
 ('229','APOA1',	'Apolipoprotein A1, Serum','1869-7','Apolipoprotein A-I:MCnc:Pt:Ser/Plas:Qn:','Automated Turbidimetric Immunoassay'),
 ('230','APOAB','Apolipoprotein A1 and B, Serum','55724-9','Apolipoprotein A-I & A-II & B & C panel:MCnc:Pt:Ser/Plas:Qn:',	'Automated Turbidimetric Immunoassay'),
-('231','APOEG','Apolipoprotein E Genotyping, Blood','42315-2','APOE gene alleles e2 & e3 & e4:Prid:Pt:Bld/Tiss:Nom:Molgen'	'Polymerase Chain Reaction (PCR) including Restriction Digest'),
+('231','APOEG','Apolipoprotein E Genotyping, Blood','42315-2','APOE gene alleles e2 & e3 & e4:Prid:Pt:Bld/Tiss:Nom:Molgen',	'Polymerase Chain Reaction (PCR) including Restriction Digest'),
 ('232','APOLB','Apolipoprotein B, Serum','1884-6','Apolipoprotein B:MCnc:Pt:Ser/Plas:Qn:','Automated Turbidimetric Immunoassay'),
 ('233','APPI','Amyloid Precursor Protein (APP) Immunostain, Technical Component Only','Order only;no result', null,		'Immunohistochemistry'),
 ('234','APPL','Apple, IgE, Serum','6021-0','Malus sylvestris Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)'),
-('235','APR','Apricot, IgE, Serum','7091-2','Prunus armeniaca Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)'),
-('236','APRAV',	'Aldosterone, Right Adrenal Vein, Plasma','1763-2','Aldosterone:MCnc:Pt:Ser/Plas:Qn:','Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),
-('237','APRI','Prolonged Clot Time Profile Interpretation','69049-5','Coagulation specialist review:Imp:Pt:XXX:Nar:','Only orderable as part of a profile. For more information see APROL / Prolonged Clot Time Profile, Plasma.'),
+('235','APR','Apricot, IgE, Serum','7091-2','Prunus armeniaca Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)');
+
+
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('236','APRAV','	Aldosterone, Right Adrenal Vein, Plasma','	1763-2','	Aldosterone:MCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS'),('237','APRI','Prolonged Clot Time Profile Interpretation','69049-5','Coagulation specialist review:Imp:Pt:XXX:Nar:','Only orderable as part of a profile. For more information see APROL / Prolonged Clot Time Profile, Plasma.'),
 ('238','APROL','Prolonged Clot Time Profile, Plasma','98125-8',	'Intravascular coagulation and fibrinolysis panel:-:Pt:^Patient:-:','PTSC, APTSC, DRV1, TTSC: Optical Clot-Based
 CLFIB: Clauss
 DIMER: Latex Immunoassay (LIA)'),
@@ -1475,17 +1467,18 @@ APROL / Prolonged Clot Time Profile, Plasma
 ADIC / Disseminated Intravascular Coagulation/Intravascular Coagulation and Fibrinolysis (DIC/ICF) Profile, Plasma
 
 Optical Clot-Based'),
-('240','APTTP','Activated Partial Thromboplastin Time, Plasma','14979-9','Coagulation surface induced:Time:Pt:PPP:Qn:Coag	Coagulometric (Turbidimetric)'),
+('240','APTTP','Activated Partial Thromboplastin Time, Plasma','14979-9','Coagulation surface induced:Time:Pt:PPP:Qn:','Coag	Coagulometric (Turbidimetric)'),
 ('241','ARAV','Aldosterone, Right Adrenal Vein, Serum','1763-2','Aldosterone:MCnc:Pt:Ser/Plas:Qn:','Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),
-('242','ARBI','Acetylcholine Receptor (Muscle AChR) Binding Antibody, Serum','97558-1','Acetylcholine receptor binding Ab.IgG+IgM:SCnc:Pt:Ser:Qn:IA	Radioimmunoassay (RIA)'),
+('242','ARBI','Acetylcholine Receptor (Muscle AChR) Binding Antibody, Serum','97558-1','Acetylcholine receptor binding Ab.IgG+IgM:SCnc:Pt:Ser:Qn:IA	','Radioimmunoassay (RIA)'),
 ('243','ARBOP','Arbovirus Antibody Panel, IgG and IgM, Serum','49093-8','Arbovirus Ab.IgG & IgM panel:-:Pt:Ser:-:IF', 'Immunofluorescence Assay (IFA)'),
-('244','AREC','Androgen Receptor Immunostain, Technical Component Only','Order only;no result'null,	'Immunohistochemistry (IHC)'),
+('244','AREC','Androgen Receptor Immunostain, Technical Component Only','Order only;no result',null,	'Immunohistochemistry (IHC)'),
 ('245','ARGIN','Arginase-1 Immunostain, Technical Component Only','Order only;no result',null,'Immunohistochemistry'),
 ('246','ARSAW','Arylsulfatase A, Leukocytes','24078-8','Cerebroside sulfatase:CCnt:Pt:WBC:Qn:','Colorimetric Enzyme Assay'),
 ('247','ARSU','Arylsulfatase A, 24 Hour, Urine','42726-0','Cerebroside sulfatase:CCnc:24H:Urine:Qn:', 'Colorimetric, Enzyme Assay'),
 ('248','ARVGG',	'Arrhythmogenic Cardiomyopathy Gene Panel, Varies','51966-0','Genetic disease DNA analysis panel:-:Pt:Bld/Tiss:-:Molgen','Sequence Capture and Targeted Next-Generation Sequencing followed by Polymerase Chain Reaction (PCR) and Sanger Sequencing'),
-('249','ASB','Arsenic, Blood','5583-0','Arsenic:MCnc:Pt:Bld:Qn:','Inductively Coupled Plasma Mass Spectrometry (ICP-MS)'),
-('250','ASCL1',	'Achaete-Scute Homolog 1 Immunostain, Technical Component Only','Order only;no result',NULL,		'Immunohistochemistry (IHC)'),
+('249','ASB','Arsenic, Blood','5583-0','Arsenic:MCnc:Pt:Bld:Qn:','Inductively Coupled Plasma Mass Spectrometry (ICP-MS)');
+
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('250','ASCL1',	'Achaete-Scute Homolog 1 Immunostain, Technical Component Only','Order only;no result',NULL,		'Immunohistochemistry (IHC)'),
 ('251','ASCRI','Ascaris, IgE, Serum','6022-8','Ascaris sp Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)'),
 ('252','ASCU','Arsenic/Creatinine Ratio, Urine','13463-5','Arsenic/Creatinine:MRto:Pt:Urine:Qn:','Only orderable as part of profile. For more information see:
 -ASUCR / Arsenic/Creatinine Ratio, with Reflex, Random, Urine
@@ -1506,4 +1499,4 @@ Triple Quadrupole Inductively Coupled Plasma-Mass Spectrometry (ICP-MS/MS)'),
 ('260','ASPAG','Aspergillus (Galactomannan) Antigen, Serum','44357-2','Galactomannan Ag:ACnc:Pt:Ser/Plas:Qn:IA','Enzyme Immunoassay (EIA)'),
 ('261','ASPAR','Asparagus, IgE, Serum','7099-5','Asparagus officinalis Ab.IgE:ACnc:Pt:Ser:Qn:',	'Fluorescence Enzyme Immunoassay (FEIA)'),
 ('262','ASPBA','Aspergillus Antigen, Bronchoalveolar Lavage','62467-6','Galactomannan Ag:ACnc:Pt:XXX:Qn:IA','Enzyme Immunoassay (EIA)'),
-('263','ASPG','Aspergillus niger, IgE, Serum','6830-4','Aspergillus niger Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)'),
+('263','ASPG','Aspergillus niger, IgE, Serum','6830-4','Aspergillus niger Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)');
