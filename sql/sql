@@ -1500,3 +1500,81 @@ Triple Quadrupole Inductively Coupled Plasma-Mass Spectrometry (ICP-MS/MS)'),
 ('261','ASPAR','Asparagus, IgE, Serum','7099-5','Asparagus officinalis Ab.IgE:ACnc:Pt:Ser:Qn:',	'Fluorescence Enzyme Immunoassay (FEIA)'),
 ('262','ASPBA','Aspergillus Antigen, Bronchoalveolar Lavage','62467-6','Galactomannan Ag:ACnc:Pt:XXX:Qn:IA','Enzyme Immunoassay (EIA)'),
 ('263','ASPG','Aspergillus niger, IgE, Serum','6830-4','Aspergillus niger Ab.IgE:ACnc:Pt:Ser:Qn:','Fluorescence Enzyme Immunoassay (FEIA)');
+
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('264','AST','	Aspartate Aminotransferase (AST) (GOT), Serum','	30239-8	','Aspartate aminotransferase:CCnc:Pt:Ser/Plas:Qn:','With P-5-P	Photometric Rate, L-Aspartate with Pyridoxyl-5-Phosphate'),('265','
+ASU24','	Arsenic with Reflex, 24 Hour, Urine','	5587-1','	Arsenic:MRat:24H:Urine:Qn:','	Triple Quadrupole Inductively Coupled Plasma-Mass Spectrometry (ICP-MS/MS)'),('266','
+ASUCR','	Arsenic/Creatinine, Ratio, with Reflex, Random, Urine','	13463-5','	Arsenic/Creatinine:MRto:Pt:Urine:Qn:','	"ASCU: Triple Quadrupole Inductively Coupled Plasma Mass Spectrometry (ICP-MS/MS)
+CRETR: Enzymatic Colorimetric Assay"'),('267','
+ASUOE','	Arsenic Occupational Exposure, with Reflex, Random, Urine','	13463-5','	Arsenic/Creatinine:MRto:Pt:Urine:Qn:','	"ASOU: Triple Quadrupole Inductively Coupled Plasma Mass Spectrometry (ICP-MS/MS)
+CRETR: Enzymatic Colorimetric Assay"'),('268','
+ASYN','	Alpha Synuclein Immunostain, Technical Component Only','	Order only;no result	',null,'	Immunohistochemistry'),('269','
+ATAXP','	Inherited Ataxia Gene Panel, Varies','	51966-0','	Genetic disease DNA analysis panel:-:Pt:Bld/Tiss:-:','Molgen	Sequence Capture and Targeted Next-Generation Sequencing followed by Polymerase Chain Reaction (PCR) and Sanger Sequencing'),('270','
+ATHAL','	Alpha-Globin Gene Analysis, Varies','	90040-7','	Alpha globin gene cluster & HS-40 region deletion+duplication:Find:Pt:Bld/Tiss:Doc:Molgen','	Dosage Analysis by Polymerase Chain Reaction (PCR)/Multiplex Ligation-Dependent Probe Amplification (MLPA)/Luminex Technology'),('271','
+ATHL','	Alpha-Globin Gene Analysis','	90040-7','	Alpha globin gene cluster & HS-40 region deletion+duplication:Find:Pt:Bld/Tiss:Doc:Molgen','	Only orderable as part of a profile. For more information see ATHAL / Alpha-Globin Gene Analysis.'),('272','
+ATR','	Isoagglutinin Titer, Anti-A, Serum	','38358-8	','A Ab:Titr:Pt:Ser/Plas:Qn:Antihuman globulin','	Hemagglutination'),('273','
+ATRX','	ATRX Immunostain, Technical Component Only','	Order only;no result	',null,'	Immunohistochemistry (IHC)'),('274','
+ATTF','	Antithrombin Activity, Plasma','	27811-9	','Antithrombin actual/Normal:RelCCnc:Pt:PPP:Qn:Chromo','	Chromogenic Assay'),('275','
+ATTI','	Antithrombin Antigen, Plasma','	27812-7	','Antithrombin Ag actual/Normal:RelMCnc:Pt:PPP:Qn:IA','	Latex Immunoassay (LIA)'),('276','
+AUPU','	Aureobasidium pullulans, IgE, Serum','	6029-3','	Aureobasidium pullulans Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('277','
+AVOC	','Avocado, IgE, Serum','	6033-5','	Persea americana Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('278','
+AVWPI','	von Willebrand Disease Profile Technical Interpretation','	48595-3','	von Willebrand evaluation:Imp:Pt:PPP:Nom:','	Only orderable as part of a profile. For more information see AVWPR / von Willebrand Disease Profile, Plasma.'),('279','
+AVWPQ','	von Willebrand Disease Profile Interpretation','	48595-3	','von Willebrand evaluation:Imp:Pt:PPP:Nom:	','"Only orderable as a reflex. For more information see AVWPR / von Willebrand Disease Profile, Plasma.
+ 
+Medical Interpretation"'),('280','
+AVWPR','	von Willebrand Disease Profile, Plasma','	48593-8	','von Willebrand panel:-:Pt:PPP:-:	','"F8A: Optical Clot-Based
+VWAG, VWACT: Latex Immunoassay (LIA)"'),('281','
+A_CR','	Albumin/Creatinine Ratio','	9318-7','	Albumin/Creatinine:MRto:Pt:Urine:Qn:','	"Only orderable as part of a profile. For more information see:
+ALBR / Albumin, Random, Urine
+RALB / Albumin, Random, Urine.
+ 
+Calculation"'),('282','
+B12	','Vitamin B12 Assay, Serum','	2132-9','	Cobalamins:MCnc:Pt:Ser/Plas:Qn:	','Immunoenzymatic Assay'),('283','
+B2GMG','	Beta-2 Glycoprotein 1 Antibodies, IgG and IgM, Serum','	72488-0','	Beta 2 glycoprotein 1 Ab.IgG & IgM panel:-:Pt:Ser:-:','	Enzyme-Linked Immunosorbent Assay (ELISA)'),('284','
+B2M','	Beta-2-Microglobulin, Serum','	1952-1','	Beta-2-Microglobulin:MCnc:Pt:Ser/Plas:Qn:','	Nephelometry'),('285','
+B2MC','	Beta-2-Microglobulin (Beta-2-M), Spinal Fluid','	1951-3	','Beta-2-Microglobulin:MCnc:Pt:CSF:Qn:','	Nephelometry'),('286','
+B2MU','	Beta-2 Microglobulin, Random, Urine	','1953-9	','Beta-2-Microglobulin:MCnc:Pt:Urine:Qn:','	Automated Chemiluminescent Immunometric Assay'),('287','
+B6PA','	Pyridoxic Acid, Plasma','	1688-1','	4-Pyridoxate:MCnc:Pt:Ser/Plas:Qn:','	Only orderable as part of a profile. For more information see B6PRO / Vitamin B6 Profile (PLP and PA), Plasma.'),('288','
+B6PRO','	Vitamin B6 Profile (Pyridoxal 5-Phosphate and Pyridoxic Acid), Plasma','	95266-3','	Vitamin B6 & metabolites panel:-:Pt:Ser/Plas:Qn:','	Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('289','
+BA190	','BCR/ABL1, p190, mRNA Detection, Reverse Transcription-PCR (RT-PCR), Quantitative, Monitoring Assay, Varies','	21823-0','	t(9;22)(q34.1;q11)(ABL1,BCR) fusion transcript minor break points:Arb:Pt:Bld/Tiss:Ord:Molgen','	Quantitative Reverse Transcription-Polymerase Chain Reaction (RT-PCR)'),('290','
+BA48F','	Bile Acids, Bowel Dysfunction, 48 Hour, Feces','	93338-2','	Bile acid panel:-:48H:Stool:-:	','Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS)'),('291','
+BABG','	Babesia microti IgG Antibodies, Serum	','16117-4','	Babesia microti Ab.IgG:Titr:Pt:Ser:Qn:','	Immunofluorescence Assay (IFA)'),('292','
+BABPB','	Babesia species, Molecular Detection, PCR, Blood','	88461-9','	Babesia microti & divergens+MO-1 strain & duncani 18S rRNA gene panel:-:Pt:Bld:-:','Non-probe.amp.tar	Real-Time Polymerase Chain Reaction (PCR)/DNA Probe Hybridization'),('293','
+BADX','	BCR/ABL1, Qualitative, Diagnostic Assay, Varies','	55135-8	','BCR-ABL1 kinase domain targeted mutation analysis:Prid:Pt:Bld/Tiss:Nom:Molgen','	Reverse Transcription-Polymerase Chain Reaction (RT-PCR) Multiplex PCR'),('294','
+BAFS','	Bile Acids, Fractionated and Total, Serum','	43130-4','Bile acid fractions panel:SCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('295','
+BAHG	','Bahia Grass, IgE, Serum','	6034-3','	Paspalum notatum Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('296','
+BAIPD','	Bile Acids for Peroxisomal Disorders, Serum','	43130-4','	Bile acid fractions panel:SCnc:Pt:Ser/Plas:Qn:','	Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('297','
+BAKDM','	BCR/ABL1, Tyrosine Kinase Inhibitor Resistance, Kinase Domain Mutation Screen, Sanger Sequencing, Varies','	55135-8','	BCR-ABL1 kinase domain targeted mutation analysis:Prid:Pt:Bld/Tiss:Nom:Molgen','	Reverse Transcription-Polymerase Chain Reaction (RT-PCR) with Sanger Sequencing'),('298','
+BAMB','	Bamboo Shoot, IgE, Serum	','10920-7','	Phyllostachys pubescens Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('299','
+BAMY','	Beta-Amyloid Immunostain, Technical Component Only','	Order only;no result',null,'		Immunohistochemistry'),('300','
+BANA','	Banana, IgE, Serum','	6035-0	','Musa spp Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('301','
+BAP','	Bone Alkaline Phosphatase, Serum','	17838-4','	Alkaline phosphatase.bone:MCnc:Pt:Ser/Plas:Qn:','	Immunoenzymatic Assay'),('302','
+BAP1','	BAP1 Immunostain, Technical Component Only','	Order only;no result	',null,'	Immunohistochemistry'),('303','
+BAP1Z	','BAP1-Tumor Predisposition Syndrome, BAP1 Full Gene Analysis, Varies','	101381-2	','BAP1 gene deletion+duplication & full mutation analysis:Find:Pt:Bld/Tiss:Doc:Molgen','	Sequence Capture and Targeted Next-Generation Sequencing followed by Polymerase Chain Reaction (PCR) and Sanger Sequencing'),('304','
+BAPS','	Bile Acid Profile, Serum	','43130-4','	Bile acid fractions panel:SCnc:Pt:Ser/Plas:Qn:	','Liquid Chromatography Tandem Mass Spectrometry (LC-MS/MS)'),('305','
+BARBU	','Barbiturates Confirmation, Random, Urine	','53746-4','	Barbiturates panel:-:Pt:Urine:-:','	Gas Chromatography-Mass Spectrometry (GC-MS) Confirmation with Quantitation');
+INSERT INTO `tests`(`sl_no`, `Test_id`, `Order_name`, `Loinc_code`, `Loinc_attribute`, `method_name`) VALUES ('306','BARBX	','Barbiturates Confirmation, Chain of Custody, Random, Urine	','53746-4','	Barbiturates panel:-:Pt:Urine:-:','	"BARBX: Immunoassay/Gas Chromatography-Mass Spectrometry (GC-MS) Confirmation with Quantitation
+ADLTX: Spectrophotometry (SP)"'),('307','
+BARRP','	Bartonella, Molecular Detection, PCR, Varies','	48864-3','	Bartonella sp DNA:PrThr:Pt:XXX:Ord:Probe.amp.tar','	Real-Time Polymerase Chain Reaction (PCR)'),('308','
+BART','	Bartonella Antibody Panel, IgG and IgM, Serum','	90251-0','	Bartonella henselae & Bartonella quintana Ab.IgG & IgM panel:Titr:Pt:Ser:Qn:','	Immunofluorescence Assay (IFA)'),('309','
+BARTB','	Bartonella, Molecular Detection, PCR, Blood','	16275-0	','Bartonella sp DNA:PrThr:Pt:Bld:Ord:Probe.amp.tar	','Real-Time Polymerase Chain Reaction (PCR)'),('310','
+BASL','	Basil, IgE, Serum	','7118-3','	Ocimum basilicum Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('311','
+BAYL','	Bay Leaf, IgE, Serum	','7125-8','	Laurus nobilis Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('312','
+BBEET','	Berlin Beetle, IgE, Serum	','15339-5','	Trogoderma angustum Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('313','
+BCATN','	Beta-Catenin Immunostain, Technical Component Only','	Order only;no result	',null,'	Immunohistochemistry (IHC)'),('314','
+BCGBM','	Immunoglobulin Gene Rearrangement, PCR, Bone Marrow','	61113-7','	Immunoglobulin gene rearrangements:Find:Pt:Bld/Tiss:Nar:Molgen','	Polymerase Chain Reaction (PCR)'),('315','
+BCGR','	Immunoglobulin Gene Rearrangement, Blood','	61113-7	','Immunoglobulin gene rearrangements:Find:Pt:Bld/Tiss:Nar:Molgen','	Polymerase Chain Reaction (PCR)'),('316','
+BCGRV','	Immunoglobulin Gene Rearrangement, PCR, Varies	','61113-7	','Immunoglobulin gene rearrangements:Find:Pt:Bld/Tiss:Nar:Molgen','	Polymerase Chain Reaction (PCR)'),('317','
+BCL2','	BCL-2 Immunostain, Technical Component Only','	Order only;no result',null,'		Immunohistochemistry'),('318','
+BCL6	','BCL-6 Immunostain, Technical Component Only','	Order only;no result',null,'		Immunohistochemistry (IHC)'),('319','
+BCLGP','	B-Cell Deficiency Primary Immunodeficiency Disorder Panel (34 genes), Next-Generation Sequencing, Varies','	97565-6','	B-cell primary immunodeficiency multigene analysis:Find:Pt:Bld/Tiss:Doc:Molgen','	Custom Sequence Capture and Targeted Next-Generation Sequencing followed by Polymerase Chain Reaction (PCR) and Supplemental Sanger Sequencing'),('320','
+BCLL','	IGH Somatic Hypermutation Analysis, B-Cell Chronic Lymphocytic Leukemia (B-CLL), Varies	','50627-9	','Immunoglobulin heavy chain gene rearrangements:Find:Pt:Bld/Tiss:Nar:Molgen	','Polymerase Chain Reaction (PCR) and Next-Generation Sequencing'),('321','
+BCOR','	BCOR Immunostain, Technical Component Only	','Order only;no result',null,'		Immunohistochemistry'),('322','
+BCRAB','	BCR/ABL1, p210, mRNA Detection, Reverse Transcription-PCR (RT-PCR), Quantitative, Monitoring Chronic Myeloid Leukemia (CML), Varies','	55135-8	','BCR-ABL1 kinase domain targeted mutation analysis:Prid:Pt:Bld/Tiss:Nom:Molgen','	Quantitative Reverse Transcription-Polymerase Chain Reaction (RT-PCR)'),('323','
+BCYP','	Bald Cypress, IgE, Serum	','7272-8','	Taxodium distichum Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('324','
+BDRP','	Budgerigar Droppings, IgE, Serum','	6304-0	','Budgerigar droppings Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('325','
+BECH','	Beech, IgE, Serum	','6038-4','	Fagus grandifolia Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('326','
+BEEF','	Beef, IgE, Serum','	6039-2	','Beef Ab.IgE:ACnc:Pt:Ser:Qn:','	Fluorescence Enzyme Immunoassay (FEIA)'),('327','
+BEETS	','Beets (Beetroot), IgE, Serum	','19728-5','	Beet Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('328','
+BENW','	White Bean, IgE, Serum	','6279-4','	Bean white Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)'),('329','
+BEREP','	Ber-EP4 (Epithelial Cell Adhesion Molecule/EPCAM) Immunostain, Technical Component Only	','Order only;no result',null,'		Immunohistochemistry'),('330','
+BERG','	Bermuda Grass, IgE, Serum','	6041-8','	Cynodon dactylon Ab.IgE:ACnc:Pt:Ser:Qn:	','Fluorescence Enzyme Immunoassay (FEIA)');
